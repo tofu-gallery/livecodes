@@ -1,0 +1,600 @@
+{
+  "adaWasm": {
+    "desc": "Az Ada-t teljes egészében a böngészőben fordítja le és futtatja a <1>HAC</1>, egy Ada nyelven írt, WebAssembly-re fordított Ada-fordító. Nem vesz igénybe szervert.",
+    "link": "<1> <2>Ada Információs Központ</2> </1> <3> <4>Ada programozás (Wikibooks)</4> </3> <5> <6>HAC repo</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Indító sablon betöltése</10> </9>",
+    "name": "Ada (Wasm)"
+  },
+  "artTemplate": {
+    "desc": "Nagy teljesítményű JavaScript sablonmotor.",
+    "link": "<1> <2>art-template hivatalos weboldal</2> </1> <3> <4>art-template dokumentáció</4> </3>",
+    "name": "art-template"
+  },
+  "asciidoc": {
+    "desc": "AsciiDoc HTML-re fordítva az Asciidoctor segítségével.",
+    "link": "<1> <2>AsciiDoc hivatalos weboldal</2> </1> <3> <4>Asciidoctor hivatalos weboldal</4> </3> <5> <6>Asciidoctor dokumentáció</6> </5> <7> <8>Tanulj X-et Y perc alatt, ahol X=asciidoc</8> </7>",
+    "name": "AsciiDoc"
+  },
+  "assemblyWasm": {
+    "desc": "Az x86-64 assembly-t a <1>Keystone</1> állítja össze és az <2>Unicorn</2> hajtja végre; mindkettő WebAssembly-re van fordítva, és teljes egészében a böngészőben fut.",
+    "link": "<1> <2>A Keystone hivatalos weboldala</2> </1> <3> <4>Az Unicorn hivatalos weboldala</4> </3> <5> <6>X86 assembly (Wikibooks)</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Indító sablon betöltése</10> </9>",
+    "name": "Assembly (Wasm)"
+  },
+  "assemblyscript": {
+    "desc": "TypeScript-szerű nyelv WebAssembly-hez.",
+    "link": "<1> <2>AssemblyScript hivatalos weboldal</2> </1> <3> <4>AssemblyScript dokumentáció</4> </3> <5> <6>Kezdő sablon betöltése</6> </5>",
+    "name": "AssemblyScript"
+  },
+  "astro": {
+    "desc": "Építs gyorsabb weboldalakat kevesebb kliensoldali JavaScripttel. (Még béta verzióban)",
+    "link": "<1> <2>Astro hivatalos weboldal</2> </1> <3> <4>Astro dokumentáció</4> </3> <5> <6>Kezdő sablon betöltése</6> </5>",
+    "name": "Astro"
+  },
+  "babel": {
+    "desc": "A JavaScript fordító",
+    "link": "<1><2>Hivatalos weboldal</2></1> <3> <4>Babel dokumentáció</4> </3>",
+    "name": "Babel"
+  },
+  "bbcode": {
+    "desc": "A BBCode (\"Bulletin Board Code\") egy könnyűsúlyú jelölőnyelv, amelyet számos internetes fórum szoftverben használnak üzenetek formázására.",
+    "link": "<1><2>bbcode.org</2></1> <3> <4>BBCode útmutató</4> </3> <5> <6>BBCode a Wikipédián</6> </5>",
+    "name": "BBCode"
+  },
+  "blazorWasm": {
+    "desc": "A Razor komponenseket a valódi <1>Razor-fordító</1> és a <2>Roslyn</2> fordítja, és a <3>Blazor WebAssembly</3> jeleníti meg a .NET WebAssembly futtatókörnyezetben — mindez a böngészőben, szerver nélkül.",
+    "link": "<1> <2>Blazor dokumentáció</2> </1> <3> <4>ASP.NET Core Blazor komponensek</4> </3> <5> <6>LiveCodes dokumentáció</6> </5> <7> <8>Kezdő sablon betöltése</8> </7>",
+    "name": "Blazor (Wasm)"
+  },
+  "blockly": {
+    "desc": "JavaScript könyvtár vizuális programozási szerkesztők építéséhez.",
+    "link": "<1> <2>Hivatalos weboldal</2> </1> <3> <4>Útmutatók</4> </3> <5> <6>Referencia</6> </5> <7> <8>Példák</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "Blockly"
+  },
+  "cWasm": {
+    "desc": "A C a <1>Clang</1> segítségével WebAssembly-re van fordítva, és teljes egészében a böngészőben fut.",
+    "link": "<1> <2>C nyelvi referencia</2> </1> <3> <4>Clang hivatalos weboldal</4> </3> <5> <6>Tanulj X-et Y perc alatt, ahol X=C</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "C (Wasm)"
+  },
+  "civet": {
+    "desc": "A Civet egy programozási nyelv, amely TypeScript-re vagy JavaScript-re fordul, így használhatsz meglévő eszközöket, de tömör és hatékony szintaxist engedélyezhetsz.",
+    "link": "<1> <2>Civet hivatalos weboldal</2> </1> <3> <4>Civet gyorsreferencia</4> </3> <5> <6>Kezdő sablon betöltése</6> </5>",
+    "name": "Civet"
+  },
+  "clio": {
+    "desc": "A Clio egy gyors, elosztott, funkcionális programozási nyelv, amely JavaScript-re fordul.",
+    "link": "<1> <2>Clio hivatalos weboldal</2> </1> <3> <4>Clio dokumentáció</4> </3> <5> <6>Kezdő sablon betöltése</6> </5>",
+    "name": "Clio"
+  },
+  "cljsCherry": {
+    "name": "ClojureScript (Cherry)"
+  },
+  "cljsSelfhosted": {
+    "desc": "A ClojureScript a böngészőben a hivatalos <1>ClojureScript</1> fordítóval JavaScriptre fordul, amely a fordító workerben saját üzemeltetésű.",
+    "link": "<1> <2>ClojureScript hivatalos weboldal</2> </1> <3> <4>Clojure hivatalos weboldal</4> </3> <5> <6>ClojureScript saját üzemeltetési útmutató</6> </5> <7> <8>Tanulj X-et Y perc alatt, ahol X=clojure</8> </7> <9> <10>LiveCodes dokumentáció</10> </9> <11> <12>Kezdő sablon betöltése</12> </11>",
+    "name": "CLJS (saját üzemeltetésű)"
+  },
+  "clojurescript": {
+    "desc": "A ClojureScript egy <1>Clojure</1> fordító, amely JavaScript-et céloz meg. <2></2>A LiveCodes-ben a böngészőben fut a <3>Cherry</3> segítségével",
+    "link": "<1> <2>ClojureScript hivatalos weboldal</2> </1> <3> <4>Clojure hivatalos weboldal</4> </3> <5> <6>Cherry repo</6> </5> <7> <8>Tanulj X-et Y perc alatt, ahol X=clojure</8> </7> <9> <10>LiveCodes dokumentáció</10> </9> <11> <12>Kezdő sablon betöltése</12> </11>"
+  },
+  "cobol-wasm": {
+    "desc": "A modern COBOL a <1>GnuCOBOL</1> segítségével WebAssembly-re fordul, és teljes egészében a böngészőben fut.",
+    "link": "<1> <2>Az GnuCOBOL hivatalos weboldala</2> </1> <3> <4>Tanulj meg X-et Y perc alatt, ahol X=COBOL</4> </3> <5> <6>LiveCodes dokumentáció</6> </5> <7> <8>Indító sablon betöltése</8> </7>",
+    "name": "COBOL (Wasm)"
+  },
+  "coffeescript": {
+    "desc": "Egyszerű JavaScript.",
+    "link": "<1> <2>CoffeeScript hivatalos weboldal</2> </1> <3> <4>Tanulj X-et Y perc alatt, ahol X=coffeescript</4> </3> <5> <6>Kezdő sablon betöltése</6> </5>",
+    "name": "CoffeeScript"
+  },
+  "commonlisp": {
+    "desc": "Egy Common Lisp implementáció JavaScript-en a JSCL használatával (egy Lisp-to-Javascript fordító, amelyet Common Lisp-ből indítottak el).",
+    "link": "<1> <2>Common-Lisp.net</2> </1> <3> <4>JSCL Projekt</4> </3> <5> <6>Common Lisp források</6> </5> <7> <8>Tanulj X-et Y perc alatt, ahol X=Common Lisp</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "Common Lisp"
+  },
+  "cpp": {
+    "desc1": "C++ támogatás a JSCPP használatával (egy egyszerű C++ értelmező, amelyet JavaScript-ben írtak).",
+    "desc2": "Ez nem egy teljes C++ implementáció. A részletekért kérjük, tekintsd meg a <1>JSCPP dokumentációt</1>.",
+    "link": "<1> <2>Standard C++ Foundation</2> </1> <3> <4>JSCPP</4> </3> <5> <6>Tanulj X-et Y perc alatt, ahol X=C++</6> </5> <7> <8>Kezdő sablon betöltése</8> </7>",
+    "name": "C++"
+  },
+  "cppWasm": {
+    "desc": "A C++ a <1>Clang</1> segítségével WebAssembly-re van fordítva, és teljes egészében a böngészőben fut. Ez egy valódi C++-fordítót biztosít, ellentétben a <2>JSCPP-alapú C++</2> értelmezővel.",
+    "link": "<1> <2>Standard C++ Foundation</2> </1> <3> <4>Clang hivatalos weboldal</4> </3> <5> <6>Tanulj X-et Y perc alatt, ahol X=C++</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "C++ (Wasm)"
+  },
+  "crystal-wasm": {
+    "desc": "A Crystal saját fordítója WebAssembly-re fordítva — az LLVM linkerével és a WASI sysroot-tal, amelyhez kapcsolódik — teljes egészében a böngészőben fut.",
+    "link": "<1> <2>A Crystal hivatalos weboldala</2> </1> <3> <4>Crystal nyelvi referencia</4> </3> <5> <6>Standard könyvtár API</6> </5> <7> <8>Tanulj meg X-et Y perc alatt, ahol X=Crystal</8> </7> <9> <10>LiveCodes dokumentáció</10> </9> <11> <12>Kezdő sablon betöltése</12> </11>",
+    "name": "Crystal (Wasm)"
+  },
+  "csharpWasm": {
+    "desc": "C# fordító WebAssembly-n futva, a <1>Blazor</1> használatával",
+    "link": "<1> <2>C# nyelvi dokumentáció</2> </1> <3> <4>Tanulj X-et Y perc alatt, ahol X=C#</4> </3> <5> <6>LiveCodes dokumentáció</6> </5> <7> <8>Kezdő sablon betöltése</8> </7>",
+    "name": "C# (Wasm)"
+  },
+  "d-wasm": {
+    "desc": "A D a <1>DMD</1> segítségével WebAssembly-re fordul, és teljes egészében a böngészőben fut.",
+    "link": "<1> <2>A D hivatalos weboldala</2> </1> <3> <4>D nyelvi specifikáció</4> </3> <5> <6>D nyelvi túra</6> </5> <7> <8>Tanulj meg X-et Y perc alatt, ahol X=D</8> </7> <9> <10>LiveCodes dokumentáció</10> </9> <11> <12>Indító sablon betöltése</12> </11>",
+    "name": "D (Wasm)"
+  },
+  "dart": {
+    "desc": "A Dartot a Dart csapat kliensoldali eszközlánca (DDC) fordítja JavaScriptre — ugyanaz, amely a DartPadot működteti —, és teljes egészében a böngészőben fut. A lefordított csomag ezután az eredményoldalon fut. Nem vesz részt szerver.",
+    "link": "<1> <2>A Dart hivatalos weboldala</2> </1> <3> <4>Dart dokumentáció</4> </3> <5> <6>DartPad</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "Dart"
+  },
+  "diagrams": {
+    "desc1": "(Kísérleti)",
+    "desc2": "Diagramok-kódként. Támogatja:",
+    "desc3": "<1> <2>Cytoscape</2> </1> <3> <4>ELK</4> (a <5>elkjs</5> használatával) </3> <6> <7>Gnuplot</7> (a <8>gnuplot-JS</8> használatával) </6> <9> <10>Graphviz</10> (a <11>@hpcc-js/wasm</11> használatával) </9> <12> <13>Mermaid</13> </12> <14> <15>Nomnoml</15> </14> <16> <17>Pintora</17> </16> <18> <19>Plotly</19> </18> <20> <21>Svgbob</21> </20> <22> <23>Vega</23> </22> <24> <25>VegaLite</25> </24> <26> <27>WaveDrom</27> </26>",
+    "link": "<1> <2>Kezdő sablon betöltése</2> </1> <3> <4>LiveCodes dokumentáció</4> </3>",
+    "name": "Diagramok"
+  },
+  "dot": {
+    "desc": "A leggyorsabb + tömör javascript sablonmotor Node.js-hez és böngészőkhöz.",
+    "link": "<1> <2>Hivatalos weboldal</2> </1> <3> <4>LiveCodes dokumentáció</4> </3>",
+    "name": "doT.js"
+  },
+  "ejs": {
+    "desc": "Beágyazott JavaScript sablonozás.",
+    "link": "<1><2>Hivatalos weboldal</2></1> <3> <4>LiveCodes dokumentáció</4> </3>",
+    "name": "EJS"
+  },
+  "elm": {
+    "desc": "Az Elm-et a böngészőben az Elm-fordító WebAssembly-verziója fordítja le JavaScript-re.",
+    "link": "<1><2>Az Elm hivatalos weboldala</2></1> <3><4>Elm útmutató</4></3> <5> <6>LiveCodes dokumentáció</6> </5> <7> <8>Kezdő sablon betöltése</8> </7>",
+    "name": "Elm"
+  },
+  "eta": {
+    "desc": "Beágyazott JS sablonmotor Node-hoz, Deno-hoz és a böngészőhöz. Könnyűsúlyú, gyors és bővíthető. TypeScript-ben írva.",
+    "link": "<1><2>Hivatalos weboldal</2></1> <3> <4>Dokumentáció</4> </3> <5> <6>LiveCodes dokumentáció</6> </5>",
+    "name": "Eta"
+  },
+  "fanak": {
+    "desc": "A Fanak egy funkcionális programozási nyelv, amely CIL (.NET) kódra fordul. A fordítója és a .NET WebAssembly futtatókörnyezet teljes egészében a böngészőben fut, a Fanak projektből letöltve, ezért az első futtatáskor a futtatókörnyezet letöltése megtörténik, ami eltarthat egy ideig.",
+    "link": "<1> <2>Fanak tároló</2> </1> <3> <4>Fanak dokumentáció</4> </3> <5> <6>LiveCodes dokumentáció</6> </5> <7> <8>Kezdő sablon betöltése</8> </7>",
+    "name": "Fanak"
+  },
+  "fennel": {
+    "desc": "A Fennel egy programozási nyelv, amely ötvözi a Lua sebességét, egyszerűségét és elérhetőségét a lisp szintaxis és makrórendszer rugalmasságával.",
+    "link": "<1> <2>Fennel hivatalos weboldal</2> </1> <3> <4>Kezdés a Fennel-lel</4> </3> <5> <6>Tanulj meg X-et Y perc alatt, ahol X=Fennel</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "Fennel"
+  },
+  "flow": {
+    "desc": "A Flow egy statikus típusellenőrző JavaScript-hez.",
+    "link": "<1> <2>Flow hivatalos weboldal</2> </1> <3> <4>Flow dokumentáció</4> </3>",
+    "name": "Flow"
+  },
+  "flutter": {
+    "desc": "A Flutter a Darttal azonos kliensoldali eszközlánccal fordul JavaScriptre, majd a Flutter motor az eredményoldalon indul el, ahol az alkalmazás megjelenik. Nem vesz részt szerver.",
+    "link": "<1> <2>A Flutter hivatalos weboldala</2> </1> <3> <4>Flutter dokumentáció</4> </3> <5> <6>Bevezetés a widgetekbe</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "Flutter"
+  },
+  "fortran-wasm": {
+    "desc": "A modern Fortran a <1>LFortran</1> segítségével WebAssembly-re fordul, és teljes egészében a böngészőben fut.",
+    "link": "<1> <2>Fortran tanulása</2> </1> <3> <4>Az LFortran hivatalos weboldala</4> </3> <5> <6>A Fortran nyelv weboldala</6> </5> <7> <8>Tanulj meg X-et Y perc alatt, ahol X=Fortran</8> </7> <9> <10>LiveCodes dokumentáció</10> </9> <11> <12>Indító sablon betöltése</12> </11>",
+    "name": "Fortran (Wasm)"
+  },
+  "fsharp": {
+    "desc1": "Az F# egy platformfüggetlen, nyílt forráskódú funkcionális programozási nyelv, amely a .NET-platformon fut.",
+    "desc2": "Itt a Fable segítségével JavaScript-re fordítják.",
+    "link": "<1><2>Az F# hivatalos weboldala</2></1> <3> <4>F# dokumentáció</4> </3> <5> <6>A Fable hivatalos weboldala</6> </5> <7> <8>Tanulj meg X-et Y perc alatt, ahol X=F#</8> </7> <9> <10>LiveCodes dokumentációk</10> </9> <11> <12>Kezdő sablon betöltése</12> </11>",
+    "name": "F#"
+  },
+  "fsharpWasm": {
+    "desc": "A valódi F#-fordító és a .NET futtatókörnyezet a WebAssembly-n. <1></1>Ez megegyezik a hivatalos F#-fordító viselkedésével. Azonban az eredményoldalon le kell tölteni a .NET WebAssembly futtatókörnyezetet, ami az első futtatáskor némi időt vehet igénybe.",
+    "link": "<1><2>Az F# hivatalos weboldala</2></1> <3> <4>F# dokumentáció</4> </3> <5> <6>Tanulj meg X-et Y perc alatt, ahol X=F#</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "F# (Wasm)"
+  },
+  "gleam": {
+    "desc1": "A Gleam egy barátságos nyelv típusbiztos rendszerek építéséhez, amelyek skálázhatók!",
+    "desc2": "A Gleam egy statikusan típusos funkcionális programozási nyelv, amely Erlang-re vagy JavaScript-re fordul.",
+    "link": "<1><2>Gleam weboldal</2></1> <3> <4>Gleam dokumentáció</4> </3> <5> <6>Gleam nyelvi túra</6> </5> <7> <8>Kezdő sablon betöltése</8> </7>",
+    "name": "Gleam"
+  },
+  "go": {
+    "desc1": "A Go (Golang) egy nyílt forráskódú programozási nyelv, amely megkönnyíti az egyszerű, megbízható és hatékony szoftverek építését.",
+    "desc2": "Itt a GopherJS segítségével JavaScript-re fordul.",
+    "link": "<1><2>Go weboldal</2></1> <3><4>Go dokumentáció</4></3> <5> <6>GopherJS repo</6> </5> <7> <8>Tanulj X-et Y perc alatt, ahol X=Go</8> </7> <9> <10>LiveCodes dokumentáció</10> </9> <11> <12>Kezdő sablon betöltése</12> </11>",
+    "name": "Go"
+  },
+  "goWasm": {
+    "desc": "Go értelmező WebAssembly-n futva, a Yaegi használatával",
+    "link": "<1><2>Go hivatalos weboldal</2></1> <3><4>Yaegi</4></3> <5> <6>Tanulj X-et Y perc alatt, ahol X=Go</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "Go (Wasm)"
+  },
+  "haml": {
+    "desc": "Haml fordító kliensoldali javascript nézetsablonokhoz a clientside-haml-js használatával.",
+    "link": "<1><2>Haml hivatalos weboldal</2></1> <3> <4>Haml dokumentáció</4> </3> <5> <6>clientside-haml-js GitHub repo</6> </5> <7> <8>Tanulj X-et Y perc alatt, ahol X=haml</8> </7> <9> <10>LiveCodes dokumentáció</10> </9>",
+    "name": "Haml"
+  },
+  "handlebars": {
+    "desc": "Minimális sablonozás szteroidokon.",
+    "link": "<1><2>Hivatalos weboldal</2></1> <3> <4>LiveCodes dokumentáció</4> </3>",
+    "name": "Handlebars"
+  },
+  "haskell": {
+    "desc": "A Haskell a MicroHs segítségével fut a böngészőben.",
+    "link": "<1> <2>A Haskell hivatalos honlapja</2> </1> <3> <4>MicroHs a GitHubon</4> </3> <5> <6>LiveCodes dokumentációk</6> </5> <7> <8>Indító sablon betöltése</8> </7>",
+    "name": "Haskell"
+  },
+  "haskellWasm": {
+    "desc": "A Haskellt a böngészőben a <1>GHC in the browser</1>, a GHC WebAssembly-verziója fordítja le és futtatja, amely teljes egészében kliensoldalon fut.",
+    "link": "<1> <2>A Haskell hivatalos honlapja</2> </1> <3> <4>A GHC dokumentációja</4> </3> <5> <6>A GHC a böngészőben</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "Haskell (Wasm)"
+  },
+  "imba": {
+    "desc": "A barátságos full-stack nyelv.",
+    "link": "<1><2>Hivatalos weboldal</2></1>",
+    "name": "Imba"
+  },
+  "janetWasm": {
+    "desc": "A <1>Janet</1> értelmező WebAssembly-re van fordítva, és teljes egészében a böngészőben fut. Támogatja a szabványos bemenetet és a valódi kilépési kódokat.",
+    "link": "<1><2>Az Janet hivatalos weboldala</2></1> <3> <4>Janet dokumentáció</4> </3> <5> <6>Tanulj meg X-et Y perc alatt, ahol X=Janet</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "Janet (Wasm)"
+  },
+  "java8": {
+    "desc": "JVM fut a böngészőben a DoppioJVM használatával (JDK 8, JavaScriptben értelmezve).",
+    "link": "<1> <2>Java hivatalos weboldal</2> </1> <3> <4>DoppioJVM</4> </3> <5> <6>Tanulj X-et Y perc alatt, ahol X=java</6> </5> <7> <8>LiveCodes dokumentáció</8> </7>",
+    "name": "Java 8"
+  },
+  "javaWasm": {
+    "desc": "A Java a böngészőben az OpenJDK javac és a TeaVM AOT fordító segítségével WebAssembly-re fordul. A modern Java (recordok, switch kifejezések, szövegblokkok) támogatott, és semmi sem kerül elküldésre szerverre.",
+    "link": "<1> <2>Java hivatalos weboldal</2> </1> <3> <4>TeaVM</4> </3> <5> <6>Tanulj X-et Y perc alatt, ahol X=java</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "Java (Wasm)"
+  },
+  "javascript": {
+    "desc": "A web szkriptnyelve.",
+    "link": "<1> <2>JavaScript az MDN-en</2> </1> <3> <4>Tanulj X-et Y perc alatt, ahol X=JavaScript</4> </3> <5> <6>LiveCodes dokumentáció</6> </5> <7> <8>Kezdő sablon betöltése</8> </7>",
+    "name": "JavaScript"
+  },
+  "jinja": {
+    "desc": "A Jinja egy gyors, kifejező, bővíthető sablonmotor.",
+    "link": "<1> <2>Hivatalos weboldal</2> </1> <3> <4>Sablon dokumentáció</4> </3> <5> <6>JavaScript implementáció</6> </5> <7> <8>LiveCodes dokumentáció</8> </7>",
+    "name": "Jinja"
+  },
+  "jsx": {
+    "desc": "A JSX a LiveCodes-ben a TypeScript fordítóval JavaScript-re fordul. Alapértelmezés szerint React-et használ JSX futtatóként.",
+    "link": "<1> <2>React hivatalos weboldal</2> </1> <3> <4>JSX a React dokumentációban</4> </3> <5> <6>LiveCodes dokumentáció</6> </5>",
+    "name": "JSX"
+  },
+  "julia": {
+    "desc1": "A Julia nyelv támogatása a LiveCodes-ben még kísérleti",
+    "desc2": "Julia fordító és Julia Base WASM-en futva, a <1>julia-wasm</1> használatával, amelyet a <2>polylang.io</2> alkalmazott",
+    "link": "<1> <2>Julia hivatalos weboldal</2> </1> <3> <4>Julia dokumentáció</4> </3> <5> <6>Tanulj X-et Y perc alatt, ahol X=Julia</6> </5> <7> <8>Kezdő sablon betöltése</8> </7>",
+    "name": "Julia"
+  },
+  "less": {
+    "desc": "Ez CSS, csak egy kicsit több.",
+    "link": "<1><2>Less hivatalos weboldal</2></1> <3> <4>Tanulj X-et Y perc alatt, ahol X=less</4> </3>",
+    "name": "Less"
+  },
+  "liquid": {
+    "desc": "Egy egyszerű, kifejező és biztonságos sablonmotor.",
+    "link": "<1> <2>LiquidJS hivatalos weboldal</2> </1> <3> <4>LiquidJS dokumentáció</4> </3> <5> <6>LiveCodes dokumentáció</6> </5>",
+    "name": "LiquidJS"
+  },
+  "livescript": {
+    "desc": "Egy nyelv, amely JavaScript-re fordul.",
+    "link": "<1> <2>LiveScript hivatalos weboldal</2> </1> <3> <4>Tanulj X-et Y perc alatt, ahol X=LiveScript</4> </3> <5> <6>Kezdő sablon betöltése</6> </5>",
+    "name": "LiveScript"
+  },
+  "lua": {
+    "desc": "Lua fut a böngészőben a fengari-web használatával.",
+    "link": "<1><2>Lua hivatalos weboldal</2></1> <3> <4>Lua dokumentáció</4> </3> <5> <6>Fengari hivatalos weboldal</6> </5> <7> <8>fengari-web GitHub repo</8> </7> <9> <10>Tanulj X-et Y perc alatt, ahol X=Lua</10> </9> <11> <12>LiveCodes dokumentáció</12> </11> <13> <14>Kezdő sablon betöltése</14> </13>",
+    "name": "Lua"
+  },
+  "luaWasm": {
+    "desc": "Lua fut a böngészőben a Wasmoon használatával, egy valódi lua 5.4 VM JS kötésekkel, WebAssembly-vel készítve.",
+    "link": "<1><2>Lua hivatalos weboldal</2></1> <3> <4>Lua dokumentáció</4> </3> <5> <6>Wasmoon GitHub repo</6> </5> <7> <8>Tanulj X-et Y perc alatt, ahol X=Lua</8> </7> <9> <10>LiveCodes dokumentáció</10> </9> <11> <12>Kezdő sablon betöltése</12> </11>",
+    "name": "Lua (Wasm)"
+  },
+  "malina": {
+    "desc": "Frontend fordító, a Svelte ihlette.",
+    "link": "<1> <2>Malina.js repo</2> </1> <3> <4>Malina.js dokumentáció</4> </3> <5> <6>Kezdő sablon betöltése</6> </5>",
+    "name": "Malina.js"
+  },
+  "markdown": {
+    "desc": "Markdown HTML-re fordítva a Marked használatával.",
+    "link": "<1> <2>Markdown hivatalos weboldal</2> </1> <3> <4>Marked dokumentáció</4> </3> <5> <6>Tanulj X-et Y perc alatt, ahol X=markdown</6> </5> <7> <8>Kezdő sablon betöltése</8> </7>",
+    "name": "Markdown"
+  },
+  "mdx": {
+    "desc": "Markdown a komponens korszakában. <1></1>Az MDX lehetővé teszi, hogy zökkenőmentesen írj JSX-et a Markdown dokumentumaidban.",
+    "link": "<1><2>MDX dokumentáció</2></1> <3> <4>Kezdő sablon betöltése</4> </3>",
+    "name": "MDX"
+  },
+  "minizinc": {
+    "desc": "A MiniZinc egy magas szintű korlátmodellező nyelv, amely lehetővé teszi diszkrét optimalizálási problémák egyszerű kifejezését és megoldását.",
+    "link": "<1> <2>MiniZinc hivatalos weboldal</2> </1> <3> <4>MiniZinc dokumentáció</4> </3> <5> <6>MiniZinc oktatóanyag</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "MiniZinc"
+  },
+  "mjml": {
+    "desc": "Az MJML egy jelölőnyelv, amelyet a reszponzív email kódolás fájdalmainak csökkentésére terveztek.",
+    "link": "<1><2>MJML hivatalos weboldal</2></1> <3> <4>MJML dokumentáció</4> </3> <5> <6>MJML hivatalos sablonok</6> </5> <7> <8>LiveCodes dokumentáció</8> </7>",
+    "name": "MJML"
+  },
+  "mustache": {
+    "desc": "Logika nélküli sablonok.",
+    "link": "<1> <2>Hivatalos weboldal</2> </1> <3> <4>mustache(5) kézikönyv</4> </3> <5> <6>JavaScript implementáció</6> </5> <7> <8>LiveCodes dokumentáció</8> </7>",
+    "name": "Mustache"
+  },
+  "nim": {
+    "desc": "A Nim a <1>Nim fordító</1> segítségével JavaScript-re van fordítva, és teljes egészében a böngészőben fut. A program az eredményoldalon fut, így közvetlenül vezérelheti a DOM-ot.",
+    "link": "<1> <2>A Nim hivatalos weboldala</2> </1> <3> <4>Nim kézikönyv</4> </3> <5> <6>Nim standard könyvtár</6> </5> <7> <8>Tanulj meg X-et Y perc alatt, ahol X=Nim</8> </7> <9> <10>LiveCodes dokumentáció</10> </9> <11> <12>Kezdő sablon betöltése</12> </11>",
+    "name": "Nim"
+  },
+  "nimWasm": {
+    "desc": "A Nim a <1>Nim fordító</1> segítségével C-re (WebAssembly-re fordítva), majd a <2>Clang</2> segítségével WebAssembly-re van fordítva, és teljes egészében a böngészőben fut. Támogatja a szabványos bemenetet, a parancssori argumentumokat és a valódi kilépési kódokat.",
+    "link": "<1> <2>A Nim hivatalos weboldala</2> </1> <3> <4>Nim kézikönyv</4> </3> <5> <6>Nim standard könyvtár</6> </5> <7> <8>Tanulj meg X-et Y perc alatt, ahol X=Nim</8> </7> <9> <10>LiveCodes dokumentáció</10> </9> <11> <12>Kezdő sablon betöltése</12> </11>",
+    "name": "Nim (Wasm)"
+  },
+  "nunjucks": {
+    "desc": "Egy gazdag és hatékony sablonnyelv JavaScript-hez. A Nunjucks lényegében a <1>jinja2</1> portja",
+    "link": "<1> <2>Hivatalos weboldal</2> </1> <3> <4>LiveCodes dokumentáció</4> </3>",
+    "name": "Nunjucks"
+  },
+  "objcWasm": {
+    "desc": "Az Objective-C a <1>Clang</1> segítségével WebAssembly-re van fordítva, a <2>GNUstep</2> Objective-C futtatókörnyezetet használva. Ez egy futtatókörnyezet, nem pedig osztálykönyvtár, ezért a Foundation nem érhető el.",
+    "link": "<1> <2>Objective-C dokumentáció</2> </1> <3> <4>GNUstep libobjc2</4> </3> <5> <6>Tanulj X-et Y perc alatt, ahol X=Objective-C</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "Objective-C (Wasm)"
+  },
+  "objcppWasm": {
+    "desc": "Az Objective-C++ a <1>Clang</1> segítségével WebAssembly-re van fordítva, a <2>GNUstep</2> Objective-C futtatókörnyezetet használva. Ez egy futtatókörnyezet, nem pedig osztálykönyvtár, ezért a Foundation nem érhető el.",
+    "link": "<1> <2>Objective-C dokumentáció</2> </1> <3> <4>GNUstep libobjc2</4> </3> <5> <6>Tanulj X-et Y perc alatt, ahol X=Objective-C</6> </5> <7> <8>LiveCodes dokumentáció</8> </7>",
+    "name": "Objective-C++ (Wasm)"
+  },
+  "ocaml": {
+    "desc1": "Az OCaml egy ipari szintű programozási nyelv, amely támogatja a funkcionális, imperatív és objektumorientált stílusokat.",
+    "desc2": "Itt a ReScript fordítót használjuk az OCaml JavaScript-re fordításához.",
+    "link": "<1><2>OCaml weboldal</2></1> <3> <4>OCaml dokumentáció</4> </3> <5> <6>ReScript weboldal</6> </5> <7> <8>Tanulj X-et Y perc alatt, ahol X=OCaml</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "OCaml"
+  },
+  "ocamlJs": {
+    "desc1": "Az OCaml egy ipari szintű programozási nyelv, amely támogatja a funkcionális, imperatív és objektumorientált stílusokat.",
+    "desc2": "Az OCaml-fordító a böngészőben fut és JavaScript-re fordít. Semmit sem küld szerverre.",
+    "link": "<1><2>OCaml weboldal</2></1> <3> <4>OCaml dokumentáció</4> </3> <5> <6>Tanulj X-et Y perc alatt, ahol X=OCaml</6> </5> <7> <8>Kezdő sablon betöltése</8> </7>",
+    "name": "OCaml (JS)"
+  },
+  "odin-wasm": {
+    "desc": "Az Odin saját fordítója WebAssembly-re fordítva, teljes egészében a böngészőben fut.",
+    "link": "<1> <2>Az Odin hivatalos weboldala</2> </1> <3> <4>Az Odin áttekintése</4> </3> <5> <6>Standard könyvtár API</6> </5> <7> <8>Tanulj meg X-et Y perc alatt, ahol X=Odin</8> </7> <9> <10>LiveCodes dokumentáció</10> </9> <11> <12>Kezdő sablon betöltése</12> </11>",
+    "name": "Odin (Wasm)"
+  },
+  "pascal": {
+    "desc": "A Pascal a pas2js (a Free Pascal csapatától) segítségével fut a böngészőben, WebAssembly-re fordítva.",
+    "link": "<1> <2>Free Pascal hivatalos weboldal</2> </1> <3> <4>pas2js dokumentáció</4> </3> <5> <6>pas2js wiki</6> </5> <7> <8>LiveCodes dokumentációk</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "Pascal"
+  },
+  "perl": {
+    "desc": "Perl fut a böngészőben a Perlito használatával.",
+    "link": "<1> <2>Perl hivatalos weboldal</2> </1> <3> <4>Perl dokumentáció</4> </3> <5> <6>Perlito5 Readme</6> </5> <7> <8>Tanulj X-et Y perc alatt, ahol X=perl</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "Perl"
+  },
+  "php": {
+    "desc": "PHP fut a böngészőben az Uniter használatával.",
+    "link": "<1><2>PHP hivatalos weboldal</2></1> <3> <4>PHP dokumentáció</4> </3> <5> <6>Uniter GitHub repo</6> </5> <7> <8>Tanulj X-et Y perc alatt, ahol X=PHP</8> </7> <9> <10>LiveCodes dokumentáció</10> </9> <11> <12>Kezdő sablon betöltése</12> </11>",
+    "name": "PHP"
+  },
+  "phpWasm": {
+    "desc": "PHP böngészőben, WebAssembly-vel működtetve, a php-wasm használatával.",
+    "link": "<1><2>PHP hivatalos weboldal</2></1> <3> <4>PHP dokumentáció</4> </3> <5> <6>php-wasm GitHub repo</6> </5> <7> <8>Tanulj X-et Y perc alatt, ahol X=PHP</8> </7> <9> <10>LiveCodes dokumentáció</10> </9> <11> <12>Kezdő sablon betöltése</12> </11>",
+    "name": "PHP (Wasm)"
+  },
+  "postgresql": {
+    "desc": "PostgreSQL WASM-ként csomagolva a PGlite használatával",
+    "link": "<1> <2>PostgreSQL hivatalos weboldal</2> </1> <3> <4>PostgreSQL dokumentáció</4> </3> <5> <6>PGlite GitHub repo</6> </5> <7> <8>Tanulj X-et Y perc alatt, ahol X=SQL</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "PostgreSQL"
+  },
+  "duckdb": {
+    "desc": "DuckDB WASM-ként csomagolva a DuckDB-Wasm használatával",
+    "link": "<1> <2>DuckDB hivatalos weboldal</2> </1> <3> <4>DuckDB dokumentáció</4> </3> <5> <6>DuckDB-Wasm GitHub repo</6> </5> <7> <8>Tanulj X-et Y perc alatt, ahol X=SQL</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "DuckDB"
+  },
+  "prolog": {
+    "desc": "Egy nyílt forráskódú Prolog értelmező JavaScript-ben.",
+    "link": "<1> <2>Tau Prolog hivatalos weboldal</2> </1> <3> <4>Tau Prolog dokumentáció</4> </3> <5> <6>SWI-Prolog</6> </5> <7> <8>Tanulj X-et Y perc alatt, ahol X=Prolog</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "Tau Prolog"
+  },
+  "pug": {
+    "desc": "Robusztus, elegáns, funkciógazdag sablonmotor.",
+    "link": "<1> <2>Pug dokumentáció</2> </1> <3> <4>Tanulj X-et Y perc alatt, ahol X=Pug</4> </3> <5> <6>LiveCodes dokumentáció</6> </5>",
+    "name": "Pug"
+  },
+  "python": {
+    "desc": "Python fut a böngészőben a Brython használatával.",
+    "link": "<1> <2>Python hivatalos weboldal</2> </1> <3> <4>Python dokumentáció</4> </3> <5> <6>Brython dokumentáció</6> </5> <7> <8>Tanulj X-et Y perc alatt, ahol X=Python</8> </7> <9> <10>LiveCodes dokumentáció</10> </9> <11> <12>Kezdő sablon betöltése</12> </11>",
+    "name": "Python"
+  },
+  "pythonWasm": {
+    "desc1": "Python a tudományos stackkel, WebAssembly-re fordítva a Pyodide használatával.",
+    "desc2": "A Pyodide lehetővé teszi a Python tudományos stack használatát, beleértve a NumPy-t, Pandas-t, Matplotlib-t, SciPy-t, scikit-learn-t és még sok mást. Emellett lehetséges tiszta Python wheel-eket telepíteni a PyPi-ről.",
+    "link": "<1> <2>Python hivatalos weboldal</2> </1> <3> <4>Python dokumentáció</4> </3> <5><6>Pyodide dokumentáció</6></5> <7> <8>Tanulj X-et Y perc alatt, ahol X=Python</8> </7> <9> <10>LiveCodes dokumentáció</10> </9> <11> <12>Kezdő sablon betöltése</12> </11>",
+    "name": "Python (Wasm)"
+  },
+  "r": {
+    "desc": "R fut a böngészőben a WebR használatával.",
+    "link": "<1> <2>R projekt hivatalos weboldal</2> </1> <3> <4>Az R kézikönyvek</4> </3> <5> <6>R adattudományhoz (2e)</6> </5> <7> <8>WebR dokumentáció</8> </7> <9> <10>Tanulj X-et Y perc alatt, ahol X=R</10> </9> <11> <12>LiveCodes dokumentáció</12> </11> <13> <14>Kezdő sablon betöltése</14> </13>",
+    "name": "R"
+  },
+  "react": {
+    "desc": "A React Compiler egy csak fordítási időben működő eszköz, amely automatikusan optimalizálja a React alkalmazásokat.",
+    "link": "<1> <2>React hivatalos weboldal</2> </1> <3> <4>React Compiler</4> </3> <5> <6>LiveCodes dokumentáció</6> </5> <7> <8>Kezdő sablon betöltése</8> </7>",
+    "name": "React Compiler"
+  },
+  "reactNative": {
+    "desc": "A React Native for Web egy hozzáférhető implementációja a React Native komponenseinek és API-jainak, amely kompatibilis a React DOM-mal.",
+    "link": "<1> <2>React hivatalos weboldal</2> </1> <3> <4>React Native weboldal</4> </3> <5> <6>React Native for Web weboldal</6> </5> <7> <8>React Native dokumentáció</8> </7> <9> <10>LiveCodes dokumentáció</10> </9> <11> <12>Kezdő sablon betöltése</12> </11>",
+    "name": "React Native for Web"
+  },
+  "reactNativeTsx": {
+    "desc": "A React Native for Web egy hozzáférhető implementációja a React Native komponenseinek és API-jainak, amely kompatibilis a React DOM-mal.",
+    "link": "<1> <2>React hivatalos weboldal</2> </1> <3> <4>React Native weboldal</4> </3> <5> <6>React Native for Web weboldal</6> </5> <7> <8>React Native dokumentáció</8> </7> <9> <10>TypeScript weboldal</10> </9> <11> <12>TypeScript dokumentáció</12> </11> <13> <14>LiveCodes dokumentáció</14> </13> <15> <16>Kezdő sablon betöltése (JSX)</16> </15>",
+    "name": "React Native for Web (TypeScript-kel)"
+  },
+  "reactTsx": {
+    "desc": "A React Compiler egy csak fordítási időben működő eszköz, amely automatikusan optimalizálja a React alkalmazásokat.",
+    "link": "<1> <2>React hivatalos weboldal</2> </1> <3> <4>React Compiler</4> </3> <5> <6>TypeScript weboldal</6> </5> <7> <8>TypeScript dokumentáció</8> </7> <9> <10>LiveCodes dokumentáció</10> </9> <11> <12>Kezdő sablon betöltése (JSX)</12> </11>",
+    "name": "React Compiler (TypeScript-kel)"
+  },
+  "reason": {
+    "desc1": "A Reason lehetővé teszi egyszerű, gyors és minőségi típusbiztos kód írását, miközben kihasználja mind a JavaScript, mind az OCaml ökoszisztémát.",
+    "desc2": "Itt a ReScript fordítót használjuk a Reason JavaScript-re fordításához.",
+    "link": "<1><2>Reason weboldal</2></1> <3> <4>Reason dokumentáció</4> </3> <5> <6>ReasonReact</6> </5> <7> <8>ReScript weboldal</8> </7> <9> <10>Tanulj X-et Y perc alatt, ahol X=reason</10> </9> <11> <12>Kezdő sablon betöltése</12> </11>",
+    "name": "Reason"
+  },
+  "rescript": {
+    "desc": "A ReScript egy robosztusan típusos nyelv, amely hatékony és ember által olvasható JavaScript-re fordul.",
+    "link": "<1> <2>ReScript weboldal</2> </1> <3> <4>ReScript / React</4> </3> <5> <6>Kezdő sablon betöltése</6> </5>",
+    "name": "ReScript"
+  },
+  "richtext": {
+    "desc1": "Quill használatával:",
+    "desc2": "A te hatékony rich text szerkesztőd.",
+    "link": "<1> <2>Quill hivatalos weboldal</2> </1>",
+    "name": "Rich Text Szerkesztő"
+  },
+  "riot": {
+    "desc": "Egyszerű és elegáns komponens alapú UI könyvtár.",
+    "link": "<1> <2>Riot.js hivatalos weboldal</2> </1> <3> <4>Riot.js dokumentáció</4> </3> <5> <6>Kezdő sablon betöltése</6> </5>",
+    "name": "Riot.js"
+  },
+  "ruby": {
+    "desc": "Ruby fut a böngészőben az Opal használatával.",
+    "link": "<1> <2>Ruby hivatalos weboldal</2> </1> <3> <4>Ruby dokumentáció</4> </3> <5><6>Opal hivatalos weboldal</6></5> <7> <8>Opal standard könyvtár CDN</8> </7> <9> <10>Tanulj X-et Y perc alatt, ahol X=ruby</10> </9> <11> <12>LiveCodes dokumentáció</12> </11> <13> <14>Kezdő sablon betöltése</14> </13>",
+    "name": "Ruby"
+  },
+  "rubyWasm": {
+    "desc": "Ruby fut a böngészőben a ruby-wasm használatával (a CRuby WebAssembly portjainak gyűjteménye).",
+    "link": "<1> <2>Ruby hivatalos weboldal</2> </1> <3> <4>Ruby dokumentáció</4> </3> <5> <6>ruby.wasm weboldal</6> </5> <7><8>CRuby</8></7> <9> <10>Tanulj X-et Y perc alatt, ahol X=ruby</10> </9> <11> <12>LiveCodes dokumentáció</12> </11> <13> <14>Kezdő sablon betöltése</14> </13>",
+    "name": "Ruby (WASM)"
+  },
+  "rustWasm": {
+    "desc": "A Rust-ot <1>a Miri</1> (a Rust középszintű IR-értelmezője) értelmezi, majd WebAssembly-re fordítja, és a program teljes egészében a böngészőben fut.",
+    "link": "<1> <2>A Rust hivatalos weboldala</2> </1> <3> <4>A Rust könyv</4> </3> <5> <6>Tanulj meg X-et Y perc alatt, ahol X=Rust</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Indító sablon betöltése</10> </9>",
+    "name": "Rust (Wasm)"
+  },
+  "sass": {
+    "desc": "Szintaktikusan Fantasztikus Stíluslapok.",
+    "link": "<1> <2>Sass hivatalos weboldal</2> </1> <3> <4>Sass dokumentáció</4> </3> <5> <6>Sass (a behúzott) szintaxis</6> </5> <7> <8>Tanulj X-et Y perc alatt, ahol X=sass</8> </7>",
+    "name": "Sass"
+  },
+  "scalaWasm": {
+    "desc": "A Scala 3-at a böngészőben a Scala 3 fordító és a Scala.js linker fordítja le és fűzi össze, mindkettő WebAssembly-n fut. Semmit sem küld szerverre.",
+    "link": "<1> <2>A Scala hivatalos weboldala</2> </1> <3> <4>Scala dokumentáció</4> </3> <5> <6>A Scala.js hivatalos weboldala</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "Scala (Wasm)"
+  },
+  "scheme": {
+    "desc": "Scheme fut a böngészőben a biwascheme használatával.",
+    "link": "<1> <2>A Scheme programozási nyelv</2> </1> <3> <4>BiwaScheme hivatalos weboldal</4> </3> <5> <6>BiwaScheme referencia</6> </5> <7> <8>Kezdő sablon betöltése</8> </7>",
+    "name": "Scheme"
+  },
+  "scss": {
+    "desc": "Szintaktikusan Fantasztikus Stíluslapok.",
+    "link": "<1> <2>Sass hivatalos weboldal</2> </1> <3> <4>Sass dokumentáció</4> </3> <5> <6>SCSS szintaxis</6> </5> <7> <8>Tanulj X-et Y perc alatt, ahol X=sass</8> </7>",
+    "name": "SCSS"
+  },
+  "solid": {
+    "desc": "Deklaratív, hatékony és rugalmas JavaScript könyvtár felhasználói felületek építéséhez.",
+    "link": "<1><2>Hivatalos weboldal</2></1> <3><4>Dokumentáció</4></3> <5> <6>LiveCodes dokumentáció</6> </5> <7> <8>Kezdő sablon betöltése (TSX)</8> </7>",
+    "name": "Solid",
+    "tsx": {
+      "desc": "Deklaratív, hatékony és rugalmas JavaScript könyvtár felhasználói felületek építéséhez.",
+      "link": "<1><2>Hivatalos weboldal</2></1> <3> <4>Solid dokumentáció</4> </3> <5> <6>TypeScript weboldal</6> </5> <7> <8>TypeScript dokumentáció</8> </7> <9> <10>LiveCodes dokumentáció</10> </9> <11> <12>Kezdő sablon betöltése</12> </11>",
+      "name": "Solid (TypeScript-kel)"
+    }
+  },
+  "sql": {
+    "desc": "SQLite JavaScript-re fordítva a SQL.js használatával",
+    "link": "<1> <2>SQLite hivatalos weboldal</2> </1> <3> <4>SQLite szintaxis dokumentáció</4> </3> <5> <6>SQL.js hivatalos weboldal</6> </5> <7> <8>Tanulj X-et Y perc alatt, ahol X=SQL</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "SQLite"
+  },
+  "stencil": {
+    "desc": "Fordító webkomponensekhez és nagy teljesítményű webalkalmazásokhoz.",
+    "link": "<1> <2>Stencil hivatalos weboldal</2> </1> <3> <4>Stencil dokumentáció</4> </3> <5> <6>Kezdő sablon betöltése</6> </5>",
+    "name": "Stencil"
+  },
+  "styleProcessors": {
+    "link": "<1> <2>Tailwind CSS</2> </1> <3> <4>Windi CSS</4> </3> <5> <6>UnoCSS</6> </5> <7> <8>Lightning CSS</8> </7> <9> <10>PostCSS</10> Bővítmények: <11> <12> <13>Autoprefixer</13> </12> <14> <15>postcss-preset-env</15> </14> <16> <17>postcss-import-url</17> </16> <18> <19>postcss-modules</19> </18> </11> </9>",
+    "name": "CSS Keretrendszerek és Feldolgozók"
+  },
+  "stylis": {
+    "desc": "Könnyűsúlyú CSS előfeldolgozó.",
+    "link": "<1> <2>Stylis hivatalos weboldal</2> </1>",
+    "name": "Stylis"
+  },
+  "stylus": {
+    "desc": "Kifejező, Dinamikus, Robusztus CSS.",
+    "link": "<1> <2>Stylus hivatalos weboldal</2> </1> <3> <4>Tanulj X-et Y perc alatt, ahol X=stylus</4> </3>",
+    "name": "Stylus"
+  },
+  "sucrase": {
+    "desc": "Szupergyors alternatíva a Babel-hez, amikor modern JS futtatókra célozhatsz.",
+    "link": "<1> <2>Sucrase hivatalos weboldal</2> </1> <3> <4>Sucrase GitHub Repo</4> </3> <5> <6>LiveCodes dokumentáció</6> </5>",
+    "name": "Sucrase"
+  },
+  "svelte": {
+    "desc": "Kibernetikusan továbbfejlesztett webalkalmazások.",
+    "link": "<1> <2>Svelte hivatalos weboldal</2> </1> <3> <4>Svelte dokumentáció</4> </3> <5> <6>Kezdő sablon betöltése</6> </5>",
+    "name": "Svelte"
+  },
+  "swiftWasm": {
+    "desc": "A Swiftet maga a Swift-fordító fordítja WebAssembly-re: a <1>swift-frontend</1> és a <2>wasm-ld</2> is WebAssembly-re van fordítva, és teljes egészében a böngészőben fut. Nem vesz igénybe szervert.",
+    "link": "<1> <2>A Swift hivatalos weboldala</2> </1> <3> <4>A Swift programozási nyelv</4> </3> <5> <6>Tanulj meg X-et Y perc alatt, ahol X=Swift</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Indító sablon betöltése</10> </9>",
+    "name": "Swift (Wasm)"
+  },
+  "tcl": {
+    "desc": "Tcl fut a böngészőben, a <1>wacl</1> használatával.",
+    "link": "<1> <2>Tcl hivatalos weboldal</2> </1> <3> <4>wacl repo</4> </3> <5> <6>Tanulj X-et Y perc alatt, ahol X=Tcl</6> </5> <7> <8>Kezdő sablon betöltése</8> </7>",
+    "name": "Tcl (Tool Command Language)"
+  },
+  "teal": {
+    "desc": "A Lua típusos dialektusa.",
+    "link": "<1> <2>Teal GitHub repo</2> </1> <3> <4>Teal dokumentáció</4> </3> <5> <6>Teal oktatóanyag</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "Teal"
+  },
+  "tsx": {
+    "desc": "TypeScript JSX-ben. A TSX a LiveCodes-ben a TypeScript fordítóval JavaScript-re fordul. Alapértelmezés szerint React-et használ JSX futtatóként.",
+    "link": "<1> <2>React hivatalos weboldal</2> </1> <3> <4>JSX a React dokumentációban</4> </3> <5> <6>Typescript dokumentáció</6> </5> <7> <8>LiveCodes dokumentáció</8> </7>",
+    "name": "TSX"
+  },
+  "twig": {
+    "desc": "A <1>Twig</1> PHP sablonnyelv JavaScript implementációja a <2>Twig.js</2> által",
+    "link": "<1> <2>Twig hivatalos weboldal</2> </1> <3> <4>Twig dokumentáció</4> </3> <5> <6>Twig.js Repo</6> </5> <7> <8>Twig.js dokumentáció</8> </7> <9> <10>LiveCodes dokumentáció</10> </9>",
+    "name": "Twig"
+  },
+  "typescript": {
+    "desc": "A JavaScript típusos kiterjesztése.",
+    "link": "<1> <2>Hivatalos weboldal</2> </1> <3> <4>TypeScript dokumentáció</4> </3> <5> <6>Tanulj X-et Y perc alatt, ahol X=TypeScript</6> </5> <7> <8>Kezdő sablon betöltése</8> </7>",
+    "name": "TypeScript"
+  },
+  "v-wasm": {
+    "desc": "A V fordító WebAssembly-en fut.",
+    "link": "<1> <2>A V weboldala</2> </1> <3> <4>A V nyelv dokumentációja</4> </3> <5> <6>Tanulj meg X-et Y perc alatt, ahol X=V</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Indító sablon betöltése</10> </9>",
+    "name": "V (Wasm)"
+  },
+  "vbWasm": {
+    "desc": "VB.NET fordító WebAssembly-n futva, a <1>Roslyn</1> és a <2>.NET WebAssembly futtatókörnyezet</2> használatával",
+    "link": "<1> <2>Visual Basic nyelvi dokumentáció</2> </1> <3> <4>Tanulj X-et Y perc alatt, ahol X=Visual Basic</4> </3> <5> <6>LiveCodes dokumentáció</6> </5> <7> <8>Kezdő sablon betöltése</8> </7>",
+    "name": "VB.NET (Wasm)"
+  },
+  "vue": {
+    "link": "<1> <2>Vue.js v3 hivatalos weboldal</2> </1> <3> <4>Vue3 dokumentáció</4> </3> <5> <6>Vue3 egyfájlos komponensek</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Kezdő sablon betöltése</10> </9>",
+    "name": "Vue3 egyfájlos komponensek"
+  },
+  "vue2": {
+    "desc": "Betöltve a vue3-sfc-loader használatával.",
+    "link": "<1><2>Vue.js hivatalos weboldal</2></1> <3> <4>Vue2 dokumentáció</4> </3> <5> <6>Vue2 egyfájlos komponensek</6> </5> <7> <8>vue3-sfc-loader GitHub repo</8> </7> <9> <10>LiveCodes dokumentáció</10> </9>",
+    "name": "Vue2 egyfájlos komponensek"
+  },
+  "wat": {
+    "desc1": "Alacsony szintű szöveges reprezentációja a WebAssembly (wasm) bináris formátumnak.",
+    "desc2": "Wabt.js segítségével wasm-má konvertálva.",
+    "link": "<1><2>WebAssembly.org</2></1> <3> <4>WebAssembly Text Specifikációk</4> </3> <5> <6>WebAssembly az MDN-en</6> </5> <7> <8>A WebAssembly szöveges formátum megértése</8> </7> <9> <10>wabt.js dokumentáció</10> </9> <11> <12>Tanulj X-et Y perc alatt, ahol X=WebAssembly</12> </11> <13> <14>Kezdő sablon betöltése</14> </13>",
+    "name": "WebAssembly Text Formátum"
+  },
+  "zigWasm": {
+    "desc": "A Zig fordító WebAssembly-en fut.",
+    "link": "<1> <2>A Zig weboldala</2> </1> <3> <4>A Zig nyelv dokumentációja</4> </3> <5> <6>Tanulj meg X-et Y perc alatt, ahol X=Zig</6> </5> <7> <8>LiveCodes dokumentáció</8> </7> <9> <10>Indító sablon betöltése</10> </9>",
+    "name": "Zig (Wasm)"
+  }
+}

@@ -1,0 +1,600 @@
+{
+  "adaWasm": {
+    "desc": "Ada se compila y ejecuta íntegramente en el navegador mediante <1>HAC</1>, un compilador de Ada escrito en Ada y compilado a WebAssembly. No hay ningún servidor involucrado.",
+    "link": "<1> <2>Centro de Información de Ada</2> </1> <3> <4>Programación en Ada (Wikibooks)</4> </3> <5> <6>Repositorio de HAC</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10>Cargar plantilla de inicio</10> </9>",
+    "name": "Ada (Wasm)"
+  },
+  "artTemplate": {
+    "desc": "Motor de plantillas JavaScript de alto rendimiento.",
+    "link": "<1> <2>Sitio web oficial de art-template</2> </1> <3> <4>Documentación de art-template</4> </3>",
+    "name": "art-template"
+  },
+  "asciidoc": {
+    "desc": "AsciiDoc compilado a HTML usando Asciidoctor.",
+    "link": "<1> <2>Sitio web oficial de AsciiDoc</2> </1> <3> <4>Sitio web oficial de Asciidoctor</4> </3> <5> <6>Documentación de Asciidoctor</6> </5> <7> <8>Aprende X en Y minutos, donde X=asciidoc</8> </7>",
+    "name": "AsciiDoc"
+  },
+  "assemblyWasm": {
+    "desc": "El código ensamblador x86-64 se ensambla mediante <1>Keystone</1> y se ejecuta mediante <2>Unicorn</2>, ambos compilados a WebAssembly y ejecutándose íntegramente en el navegador.",
+    "link": "<1> <2>Página web oficial de Keystone</2> </1> <3> <4>Página web oficial de Unicorn</4> </3> <5> <6>Ensamblador X86 (Wikibooks)</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10>Cargar plantilla de inicio</10> </9>",
+    "name": "Assembly (Wasm)"
+  },
+  "assemblyscript": {
+    "desc": "Un lenguaje similar a TypeScript para WebAssembly.",
+    "link": "<1> <2>Sitio web oficial de AssemblyScript</2> </1> <3> <4>Documentación de AssemblyScript</4> </3> <5> <6>Cargar plantilla inicial</6> </5>",
+    "name": "AssemblyScript"
+  },
+  "astro": {
+    "desc": "Construye sitios web más rápidos con menos JavaScript del lado del cliente. (Aún en Beta)",
+    "link": "<1> <2>Sitio web oficial de Astro</2> </1> <3> <4>Documentación de Astro</4> </3> <5> <6>Cargar plantilla inicial</6> </5>",
+    "name": "Astro"
+  },
+  "babel": {
+    "desc": "El compilador de JavaScript",
+    "link": "<1><2>Sitio web oficial</2></1> <3> <4>Documentación de Babel</4> </3>",
+    "name": "Babel"
+  },
+  "bbcode": {
+    "desc": "BBCode (\"Bulletin Board Code\") es un lenguaje de marcado ligero utilizado para formatear mensajes en muchos software de foros de Internet.",
+    "link": "<1><2>bbcode.org</2></1> <3> <4>Guía de BBCode</4> </3> <5> <6>BBCode en Wikipedia</6> </5>",
+    "name": "BBCode"
+  },
+  "blazorWasm": {
+    "desc": "Componentes de Razor compilados por el verdadero <1>compilador de Razor</1> y <2>Roslyn</2>, y renderizados por <3>Blazor WebAssembly</3> en el tiempo de ejecución de .NET WebAssembly — todo en el navegador, sin servidor.",
+    "link": "<1> <2>Documentación de Blazor</2> </1> <3> <4>Componentes de ASP.NET Core Blazor</4> </3> <5> <6>Documentación de LiveCodes</6> </5> <7> <8>Cargar plantilla de inicio</8> </7>",
+    "name": "Blazor (Wasm)"
+  },
+  "blockly": {
+    "desc": "Una biblioteca JavaScript para construir editores de programación visual.",
+    "link": "<1> <2>Sitio web oficial</2> </1> <3> <4>Guías</4> </3> <5> <6>Referencia</6> </5> <7> <8>Ejemplos</8> </7> <9> <10>Cargar plantilla inicial</10> </9>",
+    "name": "Blockly"
+  },
+  "cWasm": {
+    "desc": "C compilado a WebAssembly por <1>Clang</1>, ejecutándose íntegramente en el navegador.",
+    "link": "<1> <2>Referencia del lenguaje C</2> </1> <3> <4>Sitio web oficial de Clang</4> </3> <5> <6>Aprende X en Y minutos, donde X=C</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10>Cargar plantilla inicial</10> </9>",
+    "name": "C (Wasm)"
+  },
+  "civet": {
+    "desc": "Civet es un lenguaje de programación que compila a TypeScript o JavaScript, por lo que puedes usar herramientas existentes pero habilitar una sintaxis concisa y potente.",
+    "link": "<1> <2>Sitio web oficial de Civet</2> </1> <3> <4>Hoja de trucos de Civet</4> </3> <5> <6>Cargar plantilla inicial</6> </5>",
+    "name": "Civet"
+  },
+  "clio": {
+    "desc": "Clio es un lenguaje de programación funcional rápido y distribuido que compila a JavaScript.",
+    "link": "<1> <2>Sitio web oficial de Clio</2> </1> <3> <4>Documentación de Clio</4> </3> <5> <6>Cargar plantilla inicial</6> </5>",
+    "name": "Clio"
+  },
+  "cljsCherry": {
+    "name": "ClojureScript (Cherry)"
+  },
+  "cljsSelfhosted": {
+    "desc": "ClojureScript se compila a JavaScript en el navegador mediante el compilador oficial de <1>ClojureScript</1>, autoalojado en el worker del compilador.",
+    "link": "<1> <2>Sitio web oficial de ClojureScript</2> </1> <3> <4>Sitio web oficial de Clojure</4> </3> <5> <6>Guía de autoalojamiento de ClojureScript</6> </5> <7> <8>Aprende X en Y minutos, donde X=clojure</8> </7> <9> <10>Documentación de LiveCodes</10> </9> <11> <12>Cargar plantilla inicial</12> </11>",
+    "name": "CLJS (autoalojado)"
+  },
+  "clojurescript": {
+    "desc": "ClojureScript es un compilador para <1>Clojure</1> que tiene como objetivo JavaScript. <2></2>En LiveCodes, se ejecuta en el navegador usando <3>Cherry</3>.",
+    "link": "<1> <2>Sitio web oficial de ClojureScript</2> </1> <3> <4>Sitio web oficial de Clojure</4> </3> <5> <6>Repositorio de Cherry</6> </5> <7> <8>Aprende X en Y minutos, donde X=clojure</8> </7> <9> <10>Documentación de LiveCodes</10> </9> <11> <12>Cargar plantilla inicial</12> </11>"
+  },
+  "cobol-wasm": {
+    "desc": "COBOL moderno compilado a WebAssembly por <1>GnuCOBOL</1>, ejecutándose íntegramente en el navegador.",
+    "link": "<1> <2>Página web oficial de GnuCOBOL</2> </1> <3> <4>Aprende X en Y minutos, donde X = COBOL</4> </3> <5> <6>Documentación de LiveCodes</6> </5> <7> <8>Cargar plantilla de inicio</8> </7>",
+    "name": "COBOL (Wasm)"
+  },
+  "coffeescript": {
+    "desc": "JavaScript sin complicaciones.",
+    "link": "<1> <2>Sitio web oficial de CoffeeScript</2> </1> <3> <4>Aprende X en Y minutos, donde X=coffeescript</4> </3> <5> <6>Cargar plantilla inicial</6> </5>",
+    "name": "CoffeeScript"
+  },
+  "commonlisp": {
+    "desc": "Una implementación de Common Lisp en Javascript usando JSCL (un compilador de Lisp a Javascript inicializado desde Common Lisp).",
+    "link": "<1> <2>Common-Lisp.net</2> </1> <3> <4>Proyecto JSCL</4> </3> <5> <6>Recursos de Common Lisp</6> </5> <7> <8>Aprende X en Y minutos, donde X=Common Lisp</8> </7> <9> <10>Cargar plantilla inicial</10> </9>",
+    "name": "Common Lisp"
+  },
+  "cpp": {
+    "desc1": "Soporte de C++ usando JSCPP (un intérprete simple de C++ escrito en JavaScript).",
+    "desc2": "No es una implementación completa de C++. Por favor, consulta la <1>documentación de JSCPP</1> para más detalles.",
+    "link": "<1> <2>Fundación Standard C++</2> </1> <3> <4>JSCPP</4> </3> <5> <6>Aprende X en Y minutos, donde X=C++</6> </5> <7> <8>Cargar plantilla inicial</8> </7>",
+    "name": "C++"
+  },
+  "cppWasm": {
+    "desc": "C++ compilado a WebAssembly por <1>Clang</1>, ejecutándose íntegramente en el navegador. Esto proporciona un compilador de C++ real, a diferencia del intérprete de <2>C++ basado en JSCPP</2>.",
+    "link": "<1> <2>Fundación Standard C++</2> </1> <3> <4>Sitio web oficial de Clang</4> </3> <5> <6>Aprende X en Y minutos, donde X=C++</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10>Cargar plantilla inicial</10> </9>",
+    "name": "C++ (Wasm)"
+  },
+  "crystal-wasm": {
+    "desc": "El propio compilador de Crystal, compilado a WebAssembly — con el enlazador de LLVM y el sysroot de WASI contra el que enlaza — ejecutándose íntegramente en el navegador.",
+    "link": "<1> <2>Página web oficial de Crystal</2> </1> <3> <4>Referencia del lenguaje Crystal</4> </3> <5> <6>API de la biblioteca estándar</6> </5> <7> <8>Aprende X en Y minutos, donde X = Crystal</8> </7> <9> <10>Documentación de LiveCodes</10> </9> <11> <12>Cargar plantilla de inicio</12> </11>",
+    "name": "Crystal (Wasm)"
+  },
+  "csharpWasm": {
+    "desc": "Compilador de C# que funciona con WebAssembly, utilizando <1>Blazor</1>",
+    "link": "<1> <2>Documentación del lenguaje C#</2> </1> <3> <4> Aprenda X en Y minutos, donde X=C#</4> </3> <5> <6> Documentación de LiveCodes</6> </5> <7> <8> Cargue la plantilla de inicio</8> </7>",
+    "name": "C# (Wasm)"
+  },
+  "d-wasm": {
+    "desc": "D compilado a WebAssembly por <1>DMD</1>, ejecutándose íntegramente en el navegador.",
+    "link": "<1> <2>Página web oficial de D</2> </1> <3> <4>Especificación del lenguaje D</4> </3> <5> <6>Tour del lenguaje D</6> </5> <7> <8>Aprende X en Y minutos, donde X = D</8> </7> <9> <10>Documentación de LiveCodes</10> </9> <11> <12>Cargar plantilla de inicio</12> </11>",
+    "name": "D (Wasm)"
+  },
+  "dart": {
+    "desc": "Dart se compila a JavaScript mediante la cadena de herramientas del lado del cliente del equipo de Dart (DDC) — la misma que impulsa DartPad — ejecutándose íntegramente en el navegador. El paquete compilado se ejecuta entonces en la página de resultados. No interviene ningún servidor.",
+    "link": "<1> <2>Página web oficial de Dart</2> </1> <3> <4>Documentación de Dart</4> </3> <5> <6>DartPad</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10>Cargar plantilla de inicio</10> </9>",
+    "name": "Dart"
+  },
+  "diagrams": {
+    "desc1": "(Experimental)",
+    "desc2": "Diagramas como código. Soporta:",
+    "desc3": "<1> <2>Cytoscape</2> </1> <3> <4>ELK</4> (usando <5>elkjs</5>) </3> <6> <7>Gnuplot</7> (usando <8>gnuplot-JS</8>) </6> <9> <10>Graphviz</10> (usando <11>@hpcc-js/wasm</11>) </9> <12> <13>Mermaid</13> </12> <14> <15>Nomnoml</15> </14> <16> <17>Pintora</17> </16> <18> <19>Plotly</19> </18> <20> <21>Svgbob</21> </20> <22> <23>Vega</23> </22> <24> <25>VegaLite</25> </24> <26> <27>WaveDrom</27> </26>",
+    "link": "<1> <2>Cargar plantilla inicial</2> </1> <3> <4>Documentación de LiveCodes</4> </3>",
+    "name": "Diagramas"
+  },
+  "dot": {
+    "desc": "El motor de plantillas JavaScript más rápido y conciso para Node.js y navegadores.",
+    "link": "<1> <2>Sitio web oficial</2> </1> <3> <4>Documentación de LiveCodes</4> </3>",
+    "name": "doT.js"
+  },
+  "ejs": {
+    "desc": "Plantillas de JavaScript integradas.",
+    "link": "<1><2>Sitio web oficial</2></1> <3> <4>Documentación de LiveCodes</4> </3>",
+    "name": "EJS"
+  },
+  "elm": {
+    "desc": "Elm se compila a JavaScript en el navegador mediante una versión de WebAssembly del compilador de Elm.",
+    "link": "<1><2>Página web oficial de Elm</2></1> <3><4>Guía de Elm</4></3> <5> <6>Documentación de LiveCodes</6> </5> <7> <8>Cargar plantilla de inicio</8> </7>",
+    "name": "Elm"
+  },
+  "eta": {
+    "desc": "Motor de plantillas JS integrado para Node, Deno y el navegador. Ligero, rápido y conectable. Escrito en TypeScript.",
+    "link": "<1><2>Sitio web oficial</2></1> <3> <4>Documentación</4> </3> <5> <6>Documentación de LiveCodes</6> </5>",
+    "name": "Eta"
+  },
+  "fanak": {
+    "desc": "Fanak es un lenguaje de programación funcional que compila a CIL (.NET). Su compilador y el entorno de ejecución .NET para WebAssembly se ejecutan completamente en el navegador, obtenidos del proyecto Fanak, por lo que la primera ejecución descarga el entorno de ejecución y puede tardar un momento.",
+    "link": "<1> <2>repositorio de Fanak</2> </1> <3> <4>Documentación de Fanak</4> </3> <5> <6>Documentación de LiveCodes</6> </5> <7> <8>Cargar plantilla de inicio</8> </7>",
+    "name": "Fanak"
+  },
+  "fennel": {
+    "desc": "Fennel es un lenguaje de programación que combina la velocidad, simplicidad y alcance de Lua con la flexibilidad de una sintaxis de lisp y un sistema de macros.",
+    "link": "<1> <2>Sitio web oficial de Fennel</2> </1> <3> <4>Introducción a Fennel</4> </3> <5> <6>Aprende X en Y minutos, donde X = Fennel</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10>Cargar plantilla inicial</10> </9>",
+    "name": "Fennel"
+  },
+  "flow": {
+    "desc": "Flow es un verificador de tipos estático para JavaScript.",
+    "link": "<1> <2>Sitio web oficial de Flow</2> </1> <3> <4>Documentación de Flow</4> </3>",
+    "name": "Flow"
+  },
+  "flutter": {
+    "desc": "Flutter se compila a JavaScript con la misma cadena de herramientas del lado del cliente que Dart, y el motor de Flutter se inicia luego en la página de resultados, donde se renderiza la aplicación. No interviene ningún servidor.",
+    "link": "<1> <2>Página web oficial de Flutter</2> </1> <3> <4>Documentación de Flutter</4> </3> <5> <6>Introducción a los widgets</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10>Cargar plantilla de inicio</10> </9>",
+    "name": "Flutter"
+  },
+  "fortran-wasm": {
+    "desc": "Fortran moderno compilado a WebAssembly por <1>LFortran</1>, ejecutándose íntegramente en el navegador.",
+    "link": "<1> <2>Aprender Fortran</2> </1> <3> <4>Página web oficial de LFortran</4> </3> <5> <6>Sitio web del lenguaje Fortran</6> </5> <7> <8>Aprende X en Y minutos, donde X = Fortran</8> </7> <9> <10>Documentación de LiveCodes</10> </9> <11> <12>Cargar plantilla de inicio</12> </11>",
+    "name": "Fortran (Wasm)"
+  },
+  "fsharp": {
+    "desc1": "F# es un lenguaje de programación funcional, de código abierto y multiplataforma que se ejecuta en la plataforma .NET.",
+    "desc2": "Aquí se compila a JavaScript mediante Fable.",
+    "link": "<1><2>Página web oficial de F#</2></1> <3> <4>Documentación de F#</4> </3> <5> <6>Página web oficial de Fable</6> </5> <7> <8>Aprende X en Y minutos, donde X = F#</8> </7> <9> <10>Documentación de LiveCodes</10> </9> <11> <12>Cargar plantilla de inicio</12> </11>",
+    "name": "F#"
+  },
+  "fsharpWasm": {
+    "desc": "El compilador real de F# y el entorno de ejecución de .NET ejecutándose en WebAssembly. <1></1>Esto coincide con el comportamiento del compilador oficial de F#. Sin embargo, es necesario descargar el entorno de ejecución de .NET para WebAssembly en la página de resultados, lo que puede llevar algo de tiempo la primera vez que se ejecuta.",
+    "link": "<1><2>Página web oficial de F#</2></1> <3> <4>Documentación de F#</4> </3> <5> <6>Aprende X en Y minutos, donde X = F#</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10>Cargar plantilla de inicio</10> </9>",
+    "name": "F# (Wasm)"
+  },
+  "gleam": {
+    "desc1": "¡Gleam es un lenguaje amigable para construir sistemas escalables y seguros en cuanto a tipos!",
+    "desc2": "Gleam es un lenguaje de programación funcional con tipos estáticos, que compila a Erlang o JavaScript.",
+    "link": "<1><2>Sitio web de Gleam</2></1> <3> <4>Documentación de Gleam</4> </3> <5> <6>Tour del lenguaje Gleam</6> </5> <7> <8>Cargar plantilla inicial</8> </7>",
+    "name": "Gleam"
+  },
+  "go": {
+    "desc1": "Go (Golang) es un lenguaje de programación de código abierto que facilita la construcción de software simple, confiable y eficiente.",
+    "desc2": "Aquí, se compila a JavaScript usando GopherJS.",
+    "link": "<1><2>Sitio web de Go</2></1> <3><4>Documentación de Go</4></3> <5> <6>Repositorio de GopherJS</6> </5> <7> <8>Aprende X en Y minutos, donde X=Go</8> </7> <9> <10>Documentación de LiveCodes</10> </9> <11> <12>Cargar plantilla inicial</12> </11>",
+    "name": "Go"
+  },
+  "goWasm": {
+    "desc": "Intérprete Go ejecutándose en WebAssembly, usando Yaegi",
+    "link": "<1><2>Go sitio web oficial</2></1> <3><4>Yaegi</4></3> <5> <6>Aprenda X en Y minutos, donde X=Go</6> </5> <7> <8>LiveCodes Documentations</8> </7> <9> <10>Cargar plantilla de inicio</10> </9>",
+    "name": "Go (Wasm)"
+  },
+  "haml": {
+    "desc": "Compilador Haml para plantillas de vista JavaScript del lado del cliente usando clientside-haml-js.",
+    "link": "<1><2>Sitio web oficial de Haml</2></1> <3> <4>Documentación de Haml</4> </3> <5> <6>Repositorio GitHub de clientside-haml-js</6> </5> <7> <8>Aprende X en Y minutos, donde X=haml</8> </7> <9> <10>Documentación de LiveCodes</10> </9>",
+    "name": "Haml"
+  },
+  "handlebars": {
+    "desc": "Plantillas minimalistas con esteroides.",
+    "link": "<1><2>Sitio web oficial</2></1> <3> <4>Documentación de LiveCodes</4> </3>",
+    "name": "Handlebars"
+  },
+  "haskell": {
+    "desc": "Haskell se ejecuta en el navegador mediante MicroHs.",
+    "link": "<1> <2>Página web oficial de Haskell</2> </1> <3> <4>MicroHs en GitHub</4> </3> <5> <6>Documentación de LiveCodes</6> </5> <7> <8>Cargar plantilla de inicio</8> </7>",
+    "name": "Haskell"
+  },
+  "haskellWasm": {
+    "desc": "Haskell se compila y se ejecuta en el navegador mediante <1>GHC in the browser</1>, una versión de GHC para WebAssembly que se ejecuta íntegramente en el lado del cliente.",
+    "link": "<1> <2>Página web oficial de Haskell</2> </1> <3> <4>Documentación de GHC</4> </3> <5> <6>GHC en el navegador</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10>Cargar plantilla de inicio</10> </9>",
+    "name": "Haskell (Wasm)"
+  },
+  "imba": {
+    "desc": "El lenguaje amigable de pila completa.",
+    "link": "<1><2>Sitio web oficial</2></1>",
+    "name": "Imba"
+  },
+  "janetWasm": {
+    "desc": "El intérprete de <1>Janet</1> se compila a WebAssembly y se ejecuta íntegramente en el navegador. Admite entrada estándar y códigos de salida reales.",
+    "link": "<1><2>Página web oficial de Janet</2></1> <3> <4>Documentación de Janet</4> </3> <5> <6>Aprende X en Y minutos, donde X = Janet</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10>Cargar plantilla de inicio</10> </9>",
+    "name": "Janet (Wasm)"
+  },
+  "java8": {
+    "desc": "JVM ejecutándose en el navegador utilizando DoppioJVM (JDK 8, interpretado en JavaScript).",
+    "link": "<1> <2>Sitio web oficial de Java</2> </1> <3> <4> DoppioJVM</4> </3> <5> <6> Aprenda X en Y minutos, donde X=java</6> </5> <7> <8>Documentación de LiveCodes</8> </7>",
+    "name": "Java 8"
+  },
+  "javaWasm": {
+    "desc": "Java se compila a WebAssembly en el navegador mediante javac de OpenJDK y el compilador AOT de TeaVM. Se admite Java moderno (records, expresiones switch, bloques de texto), y no se envía nada a un servidor.",
+    "link": "<1> <2>Sitio web oficial de Java</2> </1> <3> <4> TeaVM</4> </3> <5> <6> Aprenda X en Y minutos, donde X=java</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10> Cargue la plantilla de inicio</10> </9>",
+    "name": "Java (Wasm)"
+  },
+  "javascript": {
+    "desc": "El lenguaje de programación de la web.",
+    "link": "<1> <2>JavaScript en MDN</2> </1> <3> <4>Aprenda X en Y minutos, donde X=JavaScript</4> </3> <5> <6>Documentación de LiveCodes</6> </5> <7> <8>Cargar plantilla de inicio</8> </7>",
+    "name": "JavaScript"
+  },
+  "jinja": {
+    "desc": "Jinja es un motor de plantillas rápido, expresivo y extensible.",
+    "link": "<1> <2>Página web oficial</2> </1> <3> <4> Documentación sobre plantillas</4> </3> <5> <6> Implementación de JavaScript</6> </5> <7> <8> LiveCodes Documentations</8> </7>",
+    "name": "Jinja"
+  },
+  "jsx": {
+    "desc": "JSX se compila a JavaScript en LiveCodes usando el Compilador de TypeScript. Por defecto, utiliza React como el tiempo de ejecución de JSX.",
+    "link": "<1> <2>Sitio web oficial de React</2> </1> <3> <4>Documentación de JSX en React</4> </3> <5> <6>Documentación de LiveCodes</6> </5>",
+    "name": "JSX"
+  },
+  "julia": {
+    "desc1": "(El soporte del lenguaje Julia en LiveCodes aún es experimental)",
+    "desc2": "Compilador de Julia y Julia Base ejecutándose en WASM, utilizando <1>julia-wasm</1> adaptado por <2>polylang.io</2>.",
+    "link": "<1> <2>Sitio web oficial de Julia</2> </1> <3> <4>Documentación de Julia</4> </3> <5> <6>Aprende X en Y minutos, donde X=Julia</6> </5> <7> <8>Cargar plantilla inicial</8> </7>",
+    "name": "Julia"
+  },
+  "less": {
+    "desc": "Es CSS, con un poco más.",
+    "link": "<1><2>Sitio web oficial de Less</2></1> <3> <4>Aprende X en Y minutos, donde X=less</4> </3>",
+    "name": "Less"
+  },
+  "liquid": {
+    "desc": "Un motor de plantillas simple, expresivo y seguro.",
+    "link": "<1> <2>Sitio web oficial de LiquidJS</2> </1> <3> <4>Documentación de LiquidJS</4> </3> <5> <6>Documentación de LiveCodes</6> </5>",
+    "name": "LiquidJS"
+  },
+  "livescript": {
+    "desc": "Un lenguaje que se compila a JavaScript.",
+    "link": "<1> <2>Sitio web oficial de LiveScript</2> </1> <3> <4>Aprende X en Y minutos, donde X=LiveScript</4> </3> <5> <6>Cargar plantilla inicial</6> </5>",
+    "name": "LiveScript"
+  },
+  "lua": {
+    "desc": "Lua ejecutándose en el navegador usando fengari-web.",
+    "link": "<1><2>Sitio web oficial de Lua</2></1> <3> <4>Documentación de Lua</4> </3> <5> <6>Sitio web oficial de Fengari</6> </5> <7> <8>Repositorio GitHub de fengari-web</8> </7> <9> <10>Aprende X en Y minutos, donde X=Lua</10> </9> <11> <12>Documentación de LiveCodes</12> </11> <13><14>Cargar plantilla inicial</14></13>",
+    "name": "Lua"
+  },
+  "luaWasm": {
+    "desc": "Lua ejecutándose en el navegador usando Wasmoon, una verdadera máquina virtual Lua 5.4 con enlaces JS hecha con WebAssembly.",
+    "link": "<1><2>Sitio web oficial de Lua</2></1> <3> <4>Documentación de Lua</4> </3> <5> <6>Repositorio GitHub de Wasmoon</6> </5> <7> <8>Aprende X en Y minutos, donde X=Lua</8> </7> <9> <10>Documentación de LiveCodes</10> </9> <11> <12>Cargar plantilla inicial</12> </11>",
+    "name": "Lua (Wasm)"
+  },
+  "malina": {
+    "desc": "Compilador frontend, inspirado en Svelte.",
+    "link": "<1> <2>Repositorio de Malina.js</2> </1> <3> <4>Documentación de Malina.js</4> </3> <5> <6>Cargar plantilla inicial</6> </5>",
+    "name": "Malina.js"
+  },
+  "markdown": {
+    "desc": "Markdown compilado a HTML usando Marked.",
+    "link": "<1> <2>Sitio web oficial de Markdown</2> </1> <3> <4>Documentación de Marked</4> </3> <5> <6>Aprende X en Y minutos, donde X=markdown</6> </5> <7> <8>Cargar plantilla inicial</8> </7>",
+    "name": "Markdown"
+  },
+  "mdx": {
+    "desc": "Markdown para la era de los componentes. <1></1>MDX te permite escribir JSX sin problemas en tus documentos Markdown.",
+    "link": "<1><2>Documentación de MDX</2></1> <3><4>Cargar plantilla inicial</4></3>",
+    "name": "MDX"
+  },
+  "minizinc": {
+    "desc": "MiniZinc es un lenguaje de modelado de restricciones de alto nivel que permite expresar y resolver fácilmente problemas de optimización discretos.",
+    "link": "<1> <2>Página web oficial de MiniZinc</2> </1> <3> <4>Documentación de MiniZinc</4> </3> <5> <6>Tutorial de MiniZinc</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10>Cargar plantilla de inicio</10> </9>",
+    "name": "MiniZinc"
+  },
+  "mjml": {
+    "desc": "MJML es un lenguaje de marcado diseñado para reducir el dolor de codificar un correo electrónico responsive.",
+    "link": "<1><2>Sitio web oficial de MJML</2></1> <3> <4>Documentación de MJML</4> </3> <5> <6>Plantillas oficiales de MJML</6> </5> <7> <8>Documentación de LiveCodes</8> </7>",
+    "name": "MJML"
+  },
+  "mustache": {
+    "desc": "Plantillas sin lógica.",
+    "link": "<1> <2>Sitio web oficial</2> </1> <3> <4>Manual de mustache(5)</4> </3> <5> <6>Implementación en JavaScript</6> </5> <7> <8>Documentación de LiveCodes</8> </7>",
+    "name": "Mustache"
+  },
+  "nim": {
+    "desc": "Nim compilado a JavaScript por el <1>compilador de Nim</1>, ejecutándose íntegramente en el navegador. El programa se ejecuta en la página de resultados, por lo que puede controlar el DOM directamente.",
+    "link": "<1> <2>Página web oficial de Nim</2> </1> <3> <4>Manual de Nim</4> </3> <5> <6>biblioteca estándar de Nim</6> </5> <7> <8>Aprende X en Y minutos, donde X = Nim</8> </7> <9> <10>Documentación de LiveCodes</10> </9> <11> <12>Cargar plantilla inicial</12> </11>",
+    "name": "Nim"
+  },
+  "nimWasm": {
+    "desc": "Nim compilado a C por el <1>compilador de Nim</1> (compilado a WebAssembly) y luego a WebAssembly por <2>Clang</2>, ejecutándose íntegramente en el navegador. Admite entrada estándar, argumentos de línea de comandos y códigos de salida reales.",
+    "link": "<1> <2>Página web oficial de Nim</2> </1> <3> <4>Manual de Nim</4> </3> <5> <6>biblioteca estándar de Nim</6> </5> <7> <8>Aprende X en Y minutos, donde X = Nim</8> </7> <9> <10>Documentación de LiveCodes</10> </9> <11> <12>Cargar plantilla inicial</12> </11>",
+    "name": "Nim (Wasm)"
+  },
+  "nunjucks": {
+    "desc": "Un lenguaje de plantillas rico y poderoso para JavaScript. Nunjucks es esencialmente un puerto de <1>jinja2</1>.",
+    "link": "<1> <2>Sitio web oficial</2> </1> <3> <4>Documentación de LiveCodes</4> </3>",
+    "name": "Nunjucks"
+  },
+  "objcWasm": {
+    "desc": "Objective-C compilado a WebAssembly por <1>Clang</1>, usando el entorno de ejecución de Objective-C <2>GNUstep</2>. Esto es un entorno de ejecución y no una biblioteca de clases, por lo que Foundation no está disponible.",
+    "link": "<1> <2>Documentación de Objective-C</2> </1> <3> <4>GNUstep libobjc2</4> </3> <5> <6>Aprende X en Y minutos, donde X=Objective-C</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10>Cargar plantilla inicial</10> </9>",
+    "name": "Objective-C (Wasm)"
+  },
+  "objcppWasm": {
+    "desc": "Objective-C++ compilado a WebAssembly por <1>Clang</1>, usando el entorno de ejecución de Objective-C <2>GNUstep</2>. Esto es un entorno de ejecución y no una biblioteca de clases, por lo que Foundation no está disponible.",
+    "link": "<1> <2>Documentación de Objective-C</2> </1> <3> <4>GNUstep libobjc2</4> </3> <5> <6>Aprende X en Y minutos, donde X=Objective-C</6> </5> <7> <8>Documentación de LiveCodes</8> </7>",
+    "name": "Objective-C++ (Wasm)"
+  },
+  "ocaml": {
+    "desc1": "OCaml es un lenguaje de programación de calidad industrial que admite estilos funcionales, imperativos y orientados a objetos.",
+    "desc2": "Aquí se utiliza el compilador ReScript para compilar OCaml a JavaScript.",
+    "link": "<1><2>Sitio web de OCaml</2></1> <3> <4>Documentación de OCaml</4> </3> <5> <6>Sitio web de ReScript</6> </5> <7> <8>Aprende X en Y minutos, donde X=OCaml</8> </7> <9> <10>Cargar plantilla inicial</10> </9>",
+    "name": "OCaml"
+  },
+  "ocamlJs": {
+    "desc1": "OCaml es un lenguaje de programación de calidad industrial que admite estilos funcionales, imperativos y orientados a objetos.",
+    "desc2": "El compilador de OCaml se ejecuta en el navegador y compila a JavaScript. No se envía nada a un servidor.",
+    "link": "<1><2>Sitio web de OCaml</2></1> <3> <4>Documentación de OCaml</4> </3> <5> <6>Aprende X en Y minutos, donde X=OCaml</6> </5> <7> <8>Cargar plantilla inicial</8> </7>",
+    "name": "OCaml (JS)"
+  },
+  "odin-wasm": {
+    "desc": "El propio compilador de Odin, compilado a WebAssembly, ejecutándose íntegramente en el navegador.",
+    "link": "<1> <2>Página web oficial de Odin</2> </1> <3> <4>Descripción general de Odin</4> </3> <5> <6>API de la biblioteca estándar</6> </5> <7> <8>Aprende X en Y minutos, donde X = Odin</8> </7> <9> <10>Documentación de LiveCodes</10> </9> <11> <12>Cargar plantilla de inicio</12> </11>",
+    "name": "Odin (Wasm)"
+  },
+  "pascal": {
+    "desc": "Pascal ejecutándose en el navegador usando pas2js (por el equipo de Free Pascal), compilado a WebAssembly.",
+    "link": "<1> <2>Sitio web oficial de Free Pascal</2> </1> <3> <4>Documentación de pas2js</4> </3> <5> <6>pas2js wiki</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10>Cargar plantilla inicial</10> </9>",
+    "name": "Pascal"
+  },
+  "perl": {
+    "desc": "Perl ejecutándose en el navegador usando Perlito.",
+    "link": "<1> <2>Sitio web oficial de Perl</2> </1> <3> <4>Documentación de Perl</4> </3> <5> <6>Readme de Perlito5</6> </5> <7> <8>Aprende X en Y minutos, donde X=perl</8> </7> <9> <10>Cargar plantilla inicial</10> </9>",
+    "name": "Perl"
+  },
+  "php": {
+    "desc": "PHP ejecutándose en el navegador usando Uniter.",
+    "link": "<1><2>Sitio web oficial de PHP</2></1> <3> <4>Documentación de PHP</4> </3> <5> <6>Repositorio GitHub de Uniter</6> </5> <7> <8>Aprende X en Y minutos, donde X=PHP</8> </7> <9> <10>Documentación de LiveCodes</10> </9> <11><12>Cargar plantilla inicial</12></11>",
+    "name": "PHP"
+  },
+  "phpWasm": {
+    "desc": "PHP en el navegador, impulsado por WebAssembly, usando php-wasm.",
+    "link": "<1><2>Sitio web oficial de PHP</2></1> <3> <4>Documentación de PHP</4> </3> <5> <6>Repositorio GitHub de php-wasm</6> </5> <7> <8>Aprende X en Y minutos, donde X=PHP</8> </7> <9> <10>Documentación de LiveCodes</10> </9> <11> <12>Cargar plantilla inicial</12> </11>",
+    "name": "PHP (Wasm)"
+  },
+  "postgresql": {
+    "desc": "PostgreSQL empaquetado como WASM usando PGlite",
+    "link": "<1> <2>Sitio web oficial de PostgreSQL</2> </1> <3> <4>Documentación de PostgreSQL</4> </3> <5> <6>Repositorio GitHub de PGlite</6> </5> <7> <8>Aprende X en Y minutos, donde X=SQL</8> </7> <9> <10>Cargar plantilla inicial</10> </9>",
+    "name": "PostgreSQL"
+  },
+  "duckdb": {
+    "desc": "DuckDB empaquetado como WASM usando DuckDB-Wasm",
+    "link": "<1> <2>Sitio web oficial de DuckDB</2> </1> <3> <4>Documentación de DuckDB</4> </3> <5> <6>Repositorio GitHub de DuckDB-Wasm</6> </5> <7> <8>Aprende X en Y minutos, donde X=SQL</8> </7> <9> <10>Cargar plantilla inicial</10> </9>",
+    "name": "DuckDB"
+  },
+  "prolog": {
+    "desc": "Un intérprete de Prolog de código abierto en JavaScript.",
+    "link": "<1> <2>Sitio web oficial de Tau Prolog</2> </1> <3> <4>Documentación de Tau Prolog</4> </3> <5> <6>SWI-Prolog</6> </5> <7> <8>Aprende X en Y minutos, donde X=Prolog</8> </7> <9> <10>Cargar plantilla inicial</10> </9>",
+    "name": "Tau Prolog"
+  },
+  "pug": {
+    "desc": "Motor de plantillas robusto, elegante y rico en características.",
+    "link": "<1> <2>Documentación de Pug</2> </1> <3> <4>Aprende X en Y minutos, donde X=Pug</4> </3> <5> <6>Documentación de LiveCodes</6> </5>",
+    "name": "Pug"
+  },
+  "python": {
+    "desc": "Python ejecutándose en el navegador usando Brython.",
+    "link": "<1> <2>Sitio web oficial de Python</2> </1> <3> <4>Documentación de Python</4> </3> <5> <6>Documentación de Brython</6> </5> <7> <8>Aprende X en Y minutos, donde X=Python</8> </7> <9> <10>Documentación de LiveCodes</10> </9> <11> <12>Cargar plantilla inicial</12> </11>",
+    "name": "Python"
+  },
+  "pythonWasm": {
+    "desc1": "Python con el stack científico, compilado a WebAssembly usando Pyodide.",
+    "desc2": "Pyodide permite usar el stack científico de Python incluyendo NumPy, Pandas, Matplotlib, SciPy, scikit-learn y muchos más. Además, es posible instalar paquetes puros de Python desde PyPi.",
+    "link": "<1> <2>Sitio web oficial de Python</2> </1> <3> <4>Documentación de Python</4> </3> <5><6>Documentación de Pyodide</6></5> <7> <8>Aprende X en Y minutos, donde X=Python</8> </7> <9> <10>Documentación de LiveCodes</10> </9> <11> <12>Cargar plantilla inicial</12> </11>",
+    "name": "Python (Wasm)"
+  },
+  "r": {
+    "desc": "R ejecutándose en el navegador usando WebR.",
+    "link": "<1> <2>Sitio web oficial del proyecto R</2> </1> <3> <4>Los manuales de R</4> </3> <5> <6>R para Ciencia de Datos (2a ed.)</6> </5> <7> <8>Documentación de WebR</8> </7> <9> <10>Aprende X en Y minutos, donde X=R</10> </9> <11> <12>Documentación de LiveCodes</12> </11> <13> <14>Cargar plantilla inicial</14> </13>",
+    "name": "R"
+  },
+  "react": {
+    "desc": "React Compiler es una herramienta que funciona solo durante la compilación y optimiza automáticamente las aplicaciones React.",
+    "link": "<1> <2>Sitio web oficial de React</2> </1> <3> <4>Compilador React</4> </3> <5> <6>Documentación de LiveCodes</6> </5> <7> <8>Cargar plantilla inicial</8> </7>",
+    "name": "Compilador de React"
+  },
+  "reactNative": {
+    "desc": "React Native para Web es una implementación accesible de los Componentes y APIs de React Native que es interoperable con React DOM.",
+    "link": "<1> <2>Sitio web oficial de React</2> </1> <3> <4>Sitio web de React Native</4> </3> <5> <6>Sitio web de React Native para Web</6> </5> <7> <8>Documentación de React Native</8> </7> <9> <10>Documentación de LiveCodes</10> </9> <11> <12>Cargar plantilla inicial</12> </11>",
+    "name": "React Native para Web"
+  },
+  "reactNativeTsx": {
+    "desc": "React Native para Web es una implementación accesible de los Componentes y APIs de React Native que es interoperable con React DOM.",
+    "link": "<1> <2>Sitio web oficial de React</2> </1> <3> <4>Sitio web de React Native</4> </3> <5> <6>Sitio web de React Native para Web</6> </5> <7> <8>Documentación de React Native</8> </7> <9> <10>Sitio web de TypeScript</10> </9> <11> <12>Documentación de TypeScript</12> </11> <13> <14>Documentación de LiveCodes</14> </13> <15> <16>Cargar plantilla inicial (JSX)</16> </15>",
+    "name": "React Native para Web (con TypeScript)"
+  },
+  "reactTsx": {
+    "desc": "React Compiler es una herramienta que funciona solo durante la compilación y optimiza automáticamente las aplicaciones React.",
+    "link": "<1> <2>Sitio web oficial de React</2> </1> <3> <4>Compilador React</4> </3> <5> <6>Sitio web TypeScript</6> </5> <7> <8>Documentación TypeScript</8> </7> <9> <10>Documentación de LiveCodes</10> </9> <11> <12>Cargar plantilla inicial (JSX)</12> </11>",
+    "name": "Compilador React (con TypeScript)"
+  },
+  "reason": {
+    "desc1": "Reason te permite escribir código simple, rápido y de calidad con seguridad de tipos mientras aprovechas los ecosistemas de JavaScript y OCaml.",
+    "desc2": "Aquí se utiliza el compilador ReScript para compilar Reason a JavaScript.",
+    "link": "<1><2>Sitio web de Reason</2></1> <3> <4>Documentación de Reason</4> </3> <5> <6>ReasonReact</6> </5> <7> <8>Sitio web de ReScript</8> </7> <9> <10>Aprende X en Y minutos, donde X=reason</10> </9> <11> <12>Cargar plantilla inicial</12> </11>",
+    "name": "Reason"
+  },
+  "rescript": {
+    "desc": "ReScript es un lenguaje con tipado robusto que se compila a JavaScript eficiente y legible por humanos.",
+    "link": "<1> <2>Sitio web de ReScript</2> </1> <3> <4>ReScript / React</4> </3> <5> <6>Cargar plantilla inicial</6> </5>",
+    "name": "ReScript"
+  },
+  "richtext": {
+    "desc1": "Usando Quill:",
+    "desc2": "Tu potente editor de texto enriquecido.",
+    "link": "<1> <2>Sitio web oficial de Quill</2> </1>",
+    "name": "Editor de Texto Enriquecido"
+  },
+  "riot": {
+    "desc": "Biblioteca de UI basada en componentes simple y elegante.",
+    "link": "<1> <2>Sitio web oficial de Riot.js</2> </1> <3> <4>Documentación de Riot.js</4> </3> <5> <6>Cargar plantilla inicial</6> </5>",
+    "name": "Riot.js"
+  },
+  "ruby": {
+    "desc": "Ruby ejecutándose en el navegador usando Opal.",
+    "link": "<1> <2>Sitio web oficial de Ruby</2> </1> <3> <4>Documentación de Ruby</4> </3> <5><6>Sitio web oficial de Opal</6></5> <7> <8>CDN de la biblioteca estándar de Opal</8> </7> <9> <10>Aprende X en Y minutos, donde X=ruby</10> </9> <11> <12>Documentación de LiveCodes</12> </11> <13> <14>Cargar plantilla inicial</14> </13>",
+    "name": "Ruby"
+  },
+  "rubyWasm": {
+    "desc": "Ruby ejecutándose en el navegador usando ruby-wasm (una colección de puertos WebAssembly de CRuby).",
+    "link": "<1> <2>Sitio web oficial de Ruby</2> </1> <3> <4>Documentación de Ruby</4> </3> <5> <6>Sitio web de ruby.wasm</6> </5> <7><8>CRuby</8></7> <9> <10>Aprende X en Y minutos, donde X=ruby</10> </9> <11> <12>Documentación de LiveCodes</12> </11> <13> <14>Cargar plantilla inicial</14> </13>",
+    "name": "Ruby (WASM)"
+  },
+  "rustWasm": {
+    "desc": "Rust se interpreta mediante <1>Miri</1> (el intérprete de IR de nivel intermedio de Rust), que se compila a WebAssembly y se ejecuta íntegramente en el navegador.",
+    "link": "<1> <2>Página web oficial de Rust</2> </1> <3> <4>El libro de Rust</4> </3> <5> <6>Aprende X en Y minutos, donde X = Rust</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10>Cargar plantilla de inicio</10> </9>",
+    "name": "Rust (Wasm)"
+  },
+  "sass": {
+    "desc": "Hojas de Estilo Sintácticamente Impresionantes.",
+    "link": "<1> <2>Sitio web oficial de Sass</2> </1> <3> <4>Documentación de Sass</4> </3> <5> <6>Sintaxis de Sass (con indentación)</6> </5> <7> <8>Aprende X en Y minutos, donde X=sass</8> </7>",
+    "name": "Sass"
+  },
+  "scalaWasm": {
+    "desc": "Scala 3 se compila y enlaza en el navegador mediante el compilador de Scala 3 y el enlazador de Scala.js, ambos ejecutándose en WebAssembly. No se envía nada a un servidor.",
+    "link": "<1> <2>Página web oficial de Scala</2> </1> <3> <4>Documentación de Scala</4> </3> <5> <6>Página web oficial de Scala.js</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10>Cargar plantilla de inicio</10> </9>",
+    "name": "Scala (Wasm)"
+  },
+  "scheme": {
+    "desc": "Scheme ejecutándose en el navegador usando biwascheme.",
+    "link": "<1> <2>El Lenguaje de Programación Scheme</2> </1> <3> <4>Sitio web oficial de BiwaScheme</4> </3> <5> <6>Referencia de BiwaScheme</6> </5> <7> <8>Cargar plantilla inicial</8> </7>",
+    "name": "Scheme"
+  },
+  "scss": {
+    "desc": "Hojas de Estilo Sintácticamente Impresionantes.",
+    "link": "<1> <2>Sitio web oficial de Sass</2> </1> <3> <4>Documentación de Sass</4> </3> <5> <6>Sintaxis SCSS</6> </5> <7> <8>Aprende X en Y minutos, donde X=sass</8> </7>",
+    "name": "SCSS"
+  },
+  "solid": {
+    "desc": "Una biblioteca JavaScript declarativa, eficiente y flexible para construir interfaces de usuario.",
+    "link": "<1><2>Sitio web oficial</2></1> <3><4>Documentación</4></3> <5> <6>Documentación de LiveCodes</6> </5> <7> <8>Cargar plantilla inicial (TSX)</8> </7>",
+    "name": "Solid",
+    "tsx": {
+      "desc": "Una biblioteca JavaScript declarativa, eficiente y flexible para construir interfaces de usuario.",
+      "link": "<1><2>Sitio web oficial</2></1> <3> <4>Documentación de Solid</4> </3> <5> <6>Sitio web de TypeScript</6> </5> <7> <8>Documentación de TypeScript</8> </7> <9> <10>Documentación de LiveCodes</10> </9> <11> <12>Cargar plantilla inicial</12> </11>",
+      "name": "Solid (con TypeScript)"
+    }
+  },
+  "sql": {
+    "desc": "SQLite compilado a JavaScript usando SQL.js",
+    "link": "<1> <2>Sitio web oficial de SQLite</2> </1> <3> <4>Documentación de sintaxis de SQLite</4> </3> <5> <6>Sitio web oficial de SQL.js</6> </5> <7> <8>Aprende X en Y minutos, donde X=SQL</8> </7> <9><10>Cargar plantilla inicial</10></9>",
+    "name": "SQLite"
+  },
+  "stencil": {
+    "desc": "Un compilador para componentes web y aplicaciones web de alto rendimiento.",
+    "link": "<1> <2>Sitio web oficial de Stencil</2> </1> <3> <4>Documentación de Stencil</4> </3> <5> <6>Cargar plantilla inicial</6> </5>",
+    "name": "Stencil"
+  },
+  "styleProcessors": {
+    "link": "<1> <2>Tailwind CSS</2> </1> <3> <4>Windi CSS</4> </3> <5> <6>UnoCSS</6> </5> <7> <8>Lightning CSS</8> </7> <9> <10>PostCSS</10> Plugins: <11> <12> <13>Autoprefixer</13> </12> <14> <15>postcss-preset-env</15> </14> <16> <17>postcss-import-url</17> </16> <18> <19>postcss-modules</19> </18> </11> </9>",
+    "name": "Frameworks y Procesadores CSS"
+  },
+  "stylis": {
+    "desc": "Preprocesador CSS ligero.",
+    "link": "<1> <2>Sitio web oficial de Stylis</2> </1>",
+    "name": "Stylis"
+  },
+  "stylus": {
+    "desc": "CSS expresivo, dinámico y robusto.",
+    "link": "<1> <2>Sitio web oficial de Stylus</2> </1> <3> <4>Aprende X en Y minutos, donde X=stylus</4> </3>",
+    "name": "Stylus"
+  },
+  "sucrase": {
+    "desc": "Alternativa super rápida a Babel para cuando puedes apuntar a entornos de ejecución JS modernos.",
+    "link": "<1> <2>Sitio web oficial de Sucrase</2> </1> <3> <4>Repositorio GitHub de Sucrase</4> </3> <5> <6>Documentación de LiveCodes</6> </5>",
+    "name": "Sucrase"
+  },
+  "svelte": {
+    "desc": "Aplicaciones web cibernéticamente mejoradas.",
+    "link": "<1> <2>Sitio web oficial de Svelte</2> </1> <3> <4>Documentación de Svelte</4> </3> <5> <6>Cargar plantilla inicial</6> </5>",
+    "name": "Svelte"
+  },
+  "swiftWasm": {
+    "desc": "Swift se compila a WebAssembly por el propio compilador de Swift: <1>swift-frontend</1> y <2>wasm-ld</2>, ambos compilados a WebAssembly, se ejecutan íntegramente en el navegador. No hay ningún servidor involucrado.",
+    "link": "<1> <2>Página web oficial de Swift</2> </1> <3> <4>El Lenguaje de Programación Swift</4> </3> <5> <6>Aprende X en Y minutos, donde X = Swift</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10>Cargar plantilla de inicio</10> </9>",
+    "name": "Swift (Wasm)"
+  },
+  "tcl": {
+    "desc": "Tcl ejecutándose en el navegador, usando <1>wacl</1>.",
+    "link": "<1> <2>Sitio web oficial de Tcl</2> </1> <3> <4>Repositorio de wacl</4> </3> <5> <6>Aprende X en Y minutos, donde X=Tcl</6> </5> <7> <8>Cargar plantilla inicial</8> </7>",
+    "name": "Tcl (Tool Command Language)"
+  },
+  "teal": {
+    "desc": "Un dialecto tipado de Lua.",
+    "link": "<1> <2>Repositorio GitHub de Teal</2> </1> <3> <4>Documentación de Teal</4> </3> <5> <6>Tutorial de Teal</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10>Cargar plantilla inicial</10> </9>",
+    "name": "Teal"
+  },
+  "tsx": {
+    "desc": "TypeScript en JSX. TSX se compila a JavaScript en LiveCodes usando el Compilador de TypeScript. Por defecto, utiliza React como el tiempo de ejecución de JSX.",
+    "link": "<1> <2>Sitio web oficial de React</2> </1> <3> <4>Documentación de JSX en React</4> </3> <5> <6>Documentación de TypeScript</6> </5> <7> <8>Documentación de LiveCodes</8> </7>",
+    "name": "TSX"
+  },
+  "twig": {
+    "desc": "Una implementación en JavaScript de <1>Twig</1> el lenguaje de plantillas PHP por <2>Twig.js</2>.",
+    "link": "<1> <2>Sitio web oficial de Twig</2> </1> <3> <4>Documentación de Twig</4> </3> <5> <6>Repositorio de Twig.js</6> </5> <7> <8>Documentación de Twig.js</8> </7> <9> <10>Documentación de LiveCodes</10> </9>",
+    "name": "Twig"
+  },
+  "typescript": {
+    "desc": "Un superconjunto tipado de JavaScript.",
+    "link": "<1> <2>Sitio web oficial</2> </1> <3> <4>Documentación de TypeScript</4> </3> <5> <6>Aprende X en Y minutos, donde X=TypeScript</6> </5> <7> <8>Cargar plantilla inicial</8> </7>",
+    "name": "TypeScript"
+  },
+  "v-wasm": {
+    "desc": "Compilador V que se ejecuta en WebAssembly.",
+    "link": "<1> <2>Página web de V</2> </1> <3> <4>Documentación del lenguaje V</4> </3> <5> <6>Aprende X en Y minutos, donde X = V</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10>Cargar plantilla de inicio</10> </9>",
+    "name": "V (Wasm)"
+  },
+  "vbWasm": {
+    "desc": "Compilador de VB.NET que funciona con WebAssembly, utilizando <1>Roslyn</1> y el <2>entorno de ejecución de .NET para WebAssembly</2>",
+    "link": "<1> <2>Documentación del lenguaje Visual Basic</2> </1> <3> <4> Aprenda X en Y minutos, donde X=Visual Basic</4> </3> <5> <6> Documentación de LiveCodes</6> </5> <7> <8> Cargue la plantilla de inicio</8> </7>",
+    "name": "VB.NET (Wasm)"
+  },
+  "vue": {
+    "link": "<1> <2>Sitio web oficial de Vue.js v3</2> </1> <3> <4>Documentación de Vue3</4> </3> <5> <6>Componentes de archivo único de Vue3</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9><10>Cargar plantilla inicial</10></9>",
+    "name": "Componentes de archivo único de Vue3"
+  },
+  "vue2": {
+    "desc": "Cargado usando vue3-sfc-loader.",
+    "link": "<1><2>Sitio web oficial de Vue.js</2></1> <3> <4>Documentación de Vue2</4> </3> <5> <6>Componentes de archivo único de Vue2</6> </5> <7> <8>Repositorio GitHub de vue3-sfc-loader</8> </7> <9> <10>Documentación de LiveCodes</10> </9>",
+    "name": "Componentes de archivo único de Vue2"
+  },
+  "wat": {
+    "desc1": "Representación textual de bajo nivel del formato binario de WebAssembly (wasm).",
+    "desc2": "Se convierte a wasm usando wabt.js.",
+    "link": "<1><2>WebAssembly.org</2></1> <3> <4>Especificaciones del formato de texto de WebAssembly</4> </3> <5> <6>WebAssembly en MDN</6> </5> <7> <8>Entendiendo el formato de texto de WebAssembly</8> </7> <9> <10>Documentación de wabt.js</10> </9> <11> <12>Aprende X en Y minutos, donde X=WebAssembly</12> </11> <13><14>Cargar plantilla inicial</14></13>",
+    "name": "Formato de Texto de WebAssembly"
+  },
+  "zigWasm": {
+    "desc": "Compilador Zig que se ejecuta en WebAssembly.",
+    "link": "<1> <2>Página web de Zig</2> </1> <3> <4>Documentación del lenguaje Zig</4> </3> <5> <6>Aprende X en Y minutos, donde X = Zig</6> </5> <7> <8>Documentación de LiveCodes</8> </7> <9> <10>Cargar plantilla de inicio</10> </9>",
+    "name": "Zig (Wasm)"
+  }
+}

@@ -1,0 +1,60 @@
+"use strict";(()=>{var C=["esm.sh","skypack","esm.run","jsdelivr.esm","fastly.jsdelivr.esm","gcore.jsdelivr.esm","testingcf.jsdelivr.esm","jsdelivr.b-cdn.esm","jspm"],T=["jsdelivr","fastly.jsdelivr","unpkg","gcore.jsdelivr","testingcf.jsdelivr","jsdelivr.b-cdn","npmcdn"],B=["jsdelivr.gh","fastly.jsdelivr.gh","statically","gcore.jsdelivr.gh","testingcf.jsdelivr.gh","jsdelivr.b-cdn.gh"],u={getModuleUrl:(e,{isModule:t=!0,defaultCDN:r="esm.sh",external:s}={})=>{e=e.replace(/#nobundle/g,"");let i=o=>!s||!o.includes("https://esm.sh")?o:o.includes("?")?`${o}&external=${s}`:`${o}?external=${s}`,a=k(e,t,r);return a?i(a):t?i("https://esm.sh/"+e):"https://cdn.jsdelivr.net/npm/"+e},getUrl:(e,t)=>e.startsWith("http")||e.startsWith("data:")?e:k(e,!1,t||F())||e,cdnLists:{npm:T,module:C,gh:B},checkCDNs:async(e,t)=>{let r=[t,...u.cdnLists.npm].filter(Boolean);for(let s of r)try{if((await fetch(u.getUrl(e,s),{method:"HEAD"})).ok)return s}catch{}return u.cdnLists.npm[0]}},F=()=>{if(globalThis.appCDN)return globalThis.appCDN;try{return new URL(location.href).searchParams.get("appCDN")||u.cdnLists.npm[0]}catch{return u.cdnLists.npm[0]}},k=(e,t,r)=>{let s=t&&e.startsWith("unpkg:")?"?module":"";e.startsWith("gh:")?e=e.replace("gh",B[0]):e.includes(":")||(e=(r||(t?C[0]:T[0]))+":"+e);for(let i of z){let[a,o]=i;if(a.test(e))return e.replace(a,o)+s}return null},z=[[/^(esm\.sh:)(.+)/i,"https://esm.sh/$2"],[/^(npm:)(.+)/i,"https://esm.sh/$2"],[/^(node:)(.+)/i,"https://esm.sh/$2"],[/^(jsr:)(.+)/i,"https://esm.sh/jsr/$2"],[/^(pr:)(.+)/i,"https://esm.sh/pr/$2"],[/^(pkg\.pr\.new:)(.+)/i,"https://esm.sh/pkg.pr.new/$2"],[/^(skypack:)(.+)/i,"https://cdn.skypack.dev/$2"],[/^(jsdelivr:)(.+)/i,"https://cdn.jsdelivr.net/npm/$2"],[/^(fastly\.jsdelivr:)(.+)/i,"https://fastly.jsdelivr.net/npm/$2"],[/^(gcore\.jsdelivr:)(.+)/i,"https://gcore.jsdelivr.net/npm/$2"],[/^(testingcf\.jsdelivr:)(.+)/i,"https://testingcf.jsdelivr.net/npm/$2"],[/^(jsdelivr\.b-cdn:)(.+)/i,"https://jsdelivr.b-cdn.net/npm/$2"],[/^(jsdelivr\.gh:)(.+)/i,"https://cdn.jsdelivr.net/gh/$2"],[/^(fastly\.jsdelivr\.gh:)(.+)/i,"https://fastly.jsdelivr.net/gh/$2"],[/^(gcore\.jsdelivr\.gh:)(.+)/i,"https://gcore.jsdelivr.net/gh/$2"],[/^(testingcf\.jsdelivr\.gh:)(.+)/i,"https://testingcf.jsdelivr.net/gh/$2"],[/^(jsdelivr\.b-cdn\.gh:)(.+)/i,"https://jsdelivr.b-cdn.net/gh/$2"],[/^(statically:)(.+)/i,"https://cdn.statically.io/gh/$2"],[/^(esm\.run:)(.+)/i,"https://esm.run/$2"],[/^(jsdelivr\.esm:)(.+)/i,"https://cdn.jsdelivr.net/npm/$2/+esm"],[/^(fastly\.jsdelivr\.esm:)(.+)/i,"https://fastly.jsdelivr.net/npm/$2/+esm"],[/^(gcore\.jsdelivr\.esm:)(.+)/i,"https://gcore.jsdelivr.net/npm/$2/+esm"],[/^(testingcf\.jsdelivr\.esm:)(.+)/i,"https://testingcf.jsdelivr.net/npm/$2/+esm"],[/^(jsdelivr\.b-cdn\.esm:)(.+)/i,"https://jsdelivr.b-cdn.net/npm/$2/+esm"],[/^(jspm:)(.+)/i,"https://jspm.dev/$2"],[/^(esbuild:)(.+)/i,"https://esbuild.vercel.app/$2"],[/^(bundle\.run:)(.+)/i,"https://bundle.run/$2"],[/^(unpkg:)(.+)/i,"https://unpkg.com/$2"],[/^(npmcdn:)(.+)/i,"https://npmcdn.com/$2"],[/^(bundlejs:)(.+)/i,"https://deno.bundlejs.com/?file&q=$2"],[/^(bundle:)(.+)/i,"https://deno.bundlejs.com/?file&q=$2"],[/^(deno:)(.+)/i,"https://deno.bundlejs.com/?file&q=https://deno.land/x/$2/mod.ts"],[/^(https:\/\/deno\.land\/.+)/i,"https://deno.bundlejs.com/?file&q=$1"],[/^(github:|https:\/\/github\.com\/)(.[^\/]+?)\/(.[^\/]+?)\/(?!releases\/)(?:(?:blob|raw)\/)?(.+?\/.+)/i,"https://deno.bundlejs.com/?file&q=https://cdn.jsdelivr.net/gh/$2/$3@$4"],[/^(gist\.github:)(.+?\/[0-9a-f]+\/raw\/(?:[0-9a-f]+\/)?.+)$/i,"https://gist.githack.com/$2"],[/^(gitlab:|https:\/\/gitlab\.com\/)([^\/]+.*\/[^\/]+)\/(?:raw|blob)\/(.+?)(?:\?.*)?$/i,"https://deno.bundlejs.com/?file&q=https://gl.githack.com/$2/raw/$3"],[/^(bitbucket:|https:\/\/bitbucket\.org\/)([^\/]+\/[^\/]+)\/(?:raw|src)\/(.+?)(?:\?.*)?$/i,"https://deno.bundlejs.com/?file&q=https://bb.githack.com/$2/raw/$3"],[/^(bitbucket:)snippets\/([^\/]+\/[^\/]+)\/revisions\/([^\/\#\?]+)(?:\?[^#]*)?(?:\#file-(.+?))$/i,"https://bb.githack.com/!api/2.0/snippets/$2/$3/files/$4"],[/^(bitbucket:)snippets\/([^\/]+\/[^\/\#\?]+)(?:\?[^#]*)?(?:\#file-(.+?))$/i,"https://bb.githack.com/!api/2.0/snippets/$2/HEAD/files/$3"],[/^(bitbucket:)\!api\/2.0\/snippets\/([^\/]+\/[^\/]+\/[^\/]+)\/files\/(.+?)(?:\?.*)?$/i,"https://bb.githack.com/!api/2.0/snippets/$2/files/$3"],[/^(api\.bitbucket:)2.0\/snippets\/([^\/]+\/[^\/]+\/[^\/]+)\/files\/(.+?)(?:\?.*)?$/i,"https://bb.githack.com/!api/2.0/snippets/$2/files/$3"],[/^(rawgit:)(.+?\/[0-9a-f]+\/raw\/(?:[0-9a-f]+\/)?.+)$/i,"https://gist.githack.com/$2"],[/^(rawgit:|https:\/\/raw\.githubusercontent\.com)(\/[^\/]+\/[^\/]+|[0-9A-Za-z-]+\/[0-9a-f]+\/raw)\/(.+)/i,"https://deno.bundlejs.com/?file&q=https://raw.githack.com/$2/$3"]];var{getUrl:R,getModuleUrl:pe}=u;var h=R("@live-codes/crystal-wasm@0.4.0/");var H="5.9.3",de=R(`typescript@${H}/lib/typescript.js`);var V=typeof btoa=="function",b=typeof Buffer=="function",ue=typeof TextDecoder=="function"?new TextDecoder:void 0,A=typeof TextEncoder=="function"?new TextEncoder:void 0,J="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",g=Array.prototype.slice.call(J),ge=(e=>{let t={};return e.forEach((r,s)=>t[r]=s),t})(g);var d=String.fromCharCode.bind(String),fe=typeof Uint8Array.from=="function"?Uint8Array.from.bind(Uint8Array):e=>new Uint8Array(Array.prototype.slice.call(e,0)),K=e=>e.replace(/=/g,"").replace(/[+\/]/g,t=>t=="+"?"-":"_");var Z=e=>{let t,r,s,i,a="",o=e.length%3;for(let m=0;m<e.length;){if((r=e.charCodeAt(m++))>255||(s=e.charCodeAt(m++))>255||(i=e.charCodeAt(m++))>255)throw new TypeError("invalid character found");t=r<<16|s<<8|i,a+=g[t>>18&63]+g[t>>12&63]+g[t>>6&63]+g[t&63]}return o?a.slice(0,o-3)+"===".substring(o):a},E=V?e=>btoa(e):b?e=>Buffer.from(e,"binary").toString("base64"):Z,G=b?e=>Buffer.from(e).toString("base64"):e=>{let r=[];for(let s=0,i=e.length;s<i;s+=4096)r.push(d.apply(null,e.subarray(s,s+4096)));return E(r.join(""))};var Q=e=>{if(e.length<2){var t=e.charCodeAt(0);return t<128?e:t<2048?d(192|t>>>6)+d(128|t&63):d(224|t>>>12&15)+d(128|t>>>6&63)+d(128|t&63)}else{var t=65536+(e.charCodeAt(0)-55296)*1024+(e.charCodeAt(1)-56320);return d(240|t>>>18&7)+d(128|t>>>12&63)+d(128|t>>>6&63)+d(128|t&63)}},X=/[\uD800-\uDBFF][\uDC00-\uDFFFF]|[^\x00-\x7F]/g,Y=e=>e.replace(X,Q),S=b?e=>Buffer.from(e,"utf8").toString("base64"):A?e=>G(A.encode(e)):e=>E(Y(e)),$=(e,t=!1)=>t?K(S(e)):S(e);var ee=(e,t="text/javascript")=>`data:${t};charset=UTF-8;base64,`+$(e);var W=e=>{try{return new Worker(ee(e))}catch{return new Worker(URL.createObjectURL(new Blob([e],{type:"application/javascript"})))}};var y=e=>e==null?"":e instanceof Error||e&&typeof e=="object"&&"message"in e&&typeof e.message=="string"?e.message:String(e);var te=()=>window.parent===window?window.location.origin:window.location.ancestorOrigins?.[0]||(()=>{if(!document.referrer)return"*";try{return new URL(document.referrer).origin}catch{return"*"}})(),L=()=>{let e=te();return t=>{parent.postMessage({type:"loading",payload:t},e)}},M=async(e,t,r,s,i,a)=>{try{await t(e)}catch(o){return i(s,null,`Error: ${y(o)}`,1)}try{let o=await e.run(r,s,a),m=(o.errors||[]).filter(Boolean);return m.length?i(s,null,m.join(`
+`),o.exitCode??1):i(s,o.output??"",null,o.exitCode??0)}catch(o){return i(s,null,`Error: ${y(o)}`,1)}};var D=({getWorkerSrc:e,label:t,timeoutMs:r})=>{let s=null,i=null,a=null,o={},m=1,O=p=>{for(let c of Object.keys(o)){let l=o[Number(c)];l.timer&&clearTimeout(l.timer),l.reject(p)}o={}},f=p=>{s?.terminate(),s=null,i=null,a?.(p),a=null,p&&O(p)},q=p=>{let c=p.data??{};if(c.type==="ready"){a?.(),a=null;return}if(c.type==="error"){f(new Error(c.message));return}let l=o[c.id];l&&(delete o[c.id],l.timer&&clearTimeout(l.timer),c.error!=null?l.reject(new Error(c.error)):l.resolve(c.result))},I=()=>{i=new Promise((p,c)=>{a=l=>l?c(l):p()}),s=W(e()),s.onmessage=q,s.onerror=p=>f(new Error(`The ${t} worker crashed: ${p.message}`))},U=async()=>{i||I(),await i};return{ensureReady:U,run:(p,c,l)=>U().then(()=>new Promise((N,w)=>{if(!s){w(new Error(`The ${t} worker is not available`));return}let v=m++,j={resolve:N,reject:w};r!=null&&(j.timer=setTimeout(()=>{f(new Error(`The ${t} compiler timed out`))},r)),o[v]=j,s.postMessage({id:v,code:p,input:c,options:l})})),destroy:()=>f()}};var se="text/crystal-wasm",re=()=>`
+importScripts(${JSON.stringify(h+"dist/crystal-wasm.global.js")});
+
+let compiler = null;
+let compilerArgs = null;
+
+const getCompiler = (compileArgs = []) => {
+  const key = JSON.stringify(compileArgs);
+  if (compiler && compilerArgs === key) return compiler;
+  compilerArgs = key;
+  const previous = compiler;
+  const created = (async () => {
+    const next = await self.crystalWasm.createCompiler({
+      baseUrl: ${JSON.stringify(h+"assets/crystal/")},
+      compileArgs,
+    });
+    // \`compileArgs\` is fixed when a compiler is created, so a change builds a new one and lets
+    // the old go; its assets are the browser's cache to keep.
+    if (previous) previous.then((old) => old.dispose()).catch(() => undefined);
+    return next;
+  })();
+  created.catch(() => {
+    if (compiler === created) {
+      compiler = null;
+      compilerArgs = null;
+    }
+  });
+  compiler = created;
+  return compiler;
+};
+
+addEventListener('message', async (event) => {
+  const { id, code, input, options } = event.data;
+  try {
+    const result = await (await getCompiler(options && options.compileArgs)).run(
+      code,
+      input,
+      options,
+    );
+    postMessage({
+      id,
+      result: {
+        output: result.output,
+        // The compiler's and the linker's diagnostics; empty when the program built.
+        errors: result.errors,
+        exitCode: result.exitCode,
+      },
+    });
+  } catch (error) {
+    postMessage({ id, error: String((error && error.message) || error) });
+  }
+});
+
+getCompiler().then(
+  () => postMessage({ type: 'ready' }),
+  (error) => postMessage({ type: 'error', message: String((error && error.message) || error) }),
+);
+`,x=L(),P=(e,t,r,s)=>(n.input=e,n.output=t,n.error=r,n.exitCode=s,n.ready=!0,r!=null?console.error(r):t!=null&&console.log(t),{input:e,output:t,error:r,exitCode:s}),_;(_=window.livecodes).crystalWasm??(_.crystalWasm={});var n=window.livecodes.crystalWasm;n.ready=!1;n.failed=!1;var oe=()=>{let e=n.settings?.["crystal-wasm"];return e!=null&&typeof e=="object"?e:{}},ne=()=>{let e="";return document.querySelectorAll(`script[type="${se}"]`).forEach(t=>{e+=`${t.textContent??""}
+`}),e},ie=e=>{let t=n.init;return t||(n.failed=!1,t=(async()=>{x(!0);try{await e.ensureReady()}finally{x(!1)}})().catch(r=>{throw n.init=null,n.failed=!0,r}),t.catch(()=>{}),n.init=t),t};n.loaded=new Promise((e,t)=>{let r=setInterval(()=>{n.failed?(clearInterval(r),t(new Error(n.error||"Failed to initialize the Crystal compiler"))):n.ready&&(clearInterval(r),e())},50)});n.run=async e=>{let t=`${e??n.input??""}`,r=ne();if(!r.trim())return P(t,null,null,null);let s=n.runner=n.runner||D({getWorkerSrc:re,label:"Crystal"});return M(s,ie,r,t,P,oe())};window.addEventListener("load",async()=>{x(!0),await n.run(n.input),x(!1)});})();
