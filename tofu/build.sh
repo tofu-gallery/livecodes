@@ -31,4 +31,9 @@ cp LICENSE site/LICENSE
 # Only the GitHub login loads this chunk (it holds upstream's Firebase project settings);
 # the patch turns the login off, so the copy does not ship it.
 rm -f site/livecodes/firebase.*.js
+# Tofu's Free hosting serves web files only and refuses a site that carries hosting or
+# build configuration. Leave out Netlify's settings file and the SDK's npm packaging
+# (package.json, TypeScript typings, Svelte source); the app loads none of them.
+rm -f site/netlify.toml site/sdk/package.json site/sdk/LiveCodes.svelte
+rm -rf site/sdk/types
 echo "site/ rebuilt from build/ ($(find site -type f | wc -l | tr -d ' ') files)"

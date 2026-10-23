@@ -1,6 +1,6 @@
 # LiveCodes on Tofu
 
-This branch (`tofu`) is Tofu's adapted copy of [LiveCodes](https://github.com/live-codes/livecodes) for the Tofu app gallery. The mirror branch `develop` is upstream's default branch and stays untouched; every change Tofu needs is a commit on `tofu`, and the tag `pin/2026-10-23` marks the adapted commit the gallery copies.
+This branch (`tofu`) is Tofu's adapted copy of [LiveCodes](https://github.com/live-codes/livecodes) for the Tofu app gallery. The mirror branch `develop` is upstream's default branch and stays untouched; every change Tofu needs is a commit on `tofu`, and tags `pin/2026-10-23[.n]` mark the pins; the newest, `pin/2026-10-23.1`, is the commit the gallery copies.
 
 ## What the app is
 
@@ -20,7 +20,7 @@ LiveCodes is a code playground that runs entirely in the browser: write HTML, CS
 
 Why a committed site: LiveCodes builds with its own esbuild scripts (`scripts/build.js`, run by `npm run build:app`), not as a plain Vite app, so Tofu's static lane cannot build it. The finished site is built here and committed to `site/`, with a copy of the licence in `site/LICENSE`.
 
-To rebuild `site/` (Node.js 22 or newer, npm and git): `bash tofu/build.sh`. The script applies `tofu/livecodes-tofu.patch` to upstream's sources for the length of the build only and puts them back afterwards, so no upstream file is edited on this branch. It then runs the same install as upstream's Dockerfile (`npm ci --ignore-scripts`, then `npx patch-package`), builds with `DOCS_BASE_URL=null npm run build:app` (help links point at upstream's online docs, https://livecodes.io/docs/, because this copy does not build the docs site), copies `build/` to `site/`, copies `LICENSE` into it and removes the Firebase chunk (see below). `site/` does not follow upstream by itself: after the daily sync brings new upstream commits, run the script again and pin a new tag. If upstream changes the lines the patch touches, `git apply --check` stops the script, and the patch needs refreshing.
+To rebuild `site/` (Node.js 22 or newer, npm and git): `bash tofu/build.sh`. The script applies `tofu/livecodes-tofu.patch` to upstream's sources for the length of the build only and puts them back afterwards, so no upstream file is edited on this branch. It then runs the same install as upstream's Dockerfile (`npm ci --ignore-scripts`, then `npx patch-package`), builds with `DOCS_BASE_URL=null npm run build:app` (help links point at upstream's online docs, https://livecodes.io/docs/, because this copy does not build the docs site), copies `build/` to `site/`, copies `LICENSE` into it, removes the Firebase chunk and leaves out the files Tofu's Free hosting refuses (both below). `site/` does not follow upstream by itself: after the daily sync brings new upstream commits, run the script again and pin a new tag. If upstream changes the lines the patch touches, `git apply --check` stops the script, and the patch needs refreshing.
 
 ## What we changed and why
 
@@ -30,6 +30,13 @@ Every change is an added file: `TOFU.md`, `tofu/build.sh`, `tofu/livecodes-tofu.
 2. **Features that need that login, or upstream's own servers, are gone from the menus, the command menu (Ctrl+K) and `?screen=` links:** Login and Log out; Deploy (to GitHub Pages); Sync to a GitHub repository, with its Auto sync switch; Export to GitHub Gist; the GitHub Pages tab of Add Asset (the Data URL tab stays); and Broadcast with its status button, which sends code to upstream's server `vps.livecodes.io`.
 3. **The Sponsor links are gone** from the Welcome screen, the About screen and the command menu (they pointed at upstream's sponsor page).
 4. **The web app manifest's icons** point at the copy's own `livecodes/assets/images/` files instead of livecodes.io.
+
+**Files left out of `site/`** (for `pin/2026-10-23.1`; `tofu/build.sh` removes them after each build). Tofu's Free hosting publishes web files only, and it refuses a whole site for one file of a type it does not serve or one that looks like build or hosting configuration. Upstream's build writes twelve such files, and the app loads none of them:
+
+- `netlify.toml`: Netlify's settings file. It only asks Netlify to send an `access-control-allow-origin: *` header; Tofu's hosting never read it and does not send that header, and the copy runs code without it (see Verification).
+- `sdk/package.json` (the SDK's npm manifest, which Tofu reads as build configuration), the nine TypeScript typings in `sdk/types/` (`index.d.ts`, `livecodes.d.ts`, `models.d.ts` and one per framework wrapper) and `sdk/LiveCodes.svelte` (the Svelte wrapper's source). They make `sdk/` an npm package; the playground does not use that package. Its embed code and its "SDK Permanent URL" load the SDK from jsDelivr (`livecodes@0.14.1`), never from this copy's `sdk/` folder.
+
+The built SDK scripts (`sdk/*.js`, `sdk/livecodes.cjs`), its README, its agent skill notes and its licence stay in `site/sdk/`. No licence or notice file was removed or renamed: Tofu's hosting skips `LICENSE` and Markdown files as repository text, so they stay in the repository without being served or refused.
 
 Analytics and tracking: none found. The source and the built site were searched for gtag, Google Tag Manager, Google Analytics, Plausible, Umami, PostHog, Mixpanel, Hotjar, Microsoft Clarity, Cloudflare Insights, `sendBeacon` and "telemetry"; nothing matched (the one hit, `analyticsTags: ['jsdelivr']`, is a field of jsDelivr's package-search request). Upstream's AI code assistant (Codeium / Windsurf) is already switched off in upstream's code; nothing to remove. No advertising.
 
@@ -64,9 +71,19 @@ Upstream's own APIs `api.livecodes.io` and `api2.livecodes.io` are only used whe
 - Third-party code bundled into the site (for example luna-console, i18next, split.js, CodeJar, Prism, Yjs, lz-string and js-base64) is listed with its licences in upstream's `vendor-licenses.md`, kept unchanged. The Monaco editor itself loads from jsDelivr. Language compilers and runtimes are not stored in this repository; they load from the CDNs above under their own licences.
 - The name LiveCodes, its logo and favicon are upstream's and are kept as they are.
 - Fonts: DM Sans, JetBrains Mono and Inter load from jsDelivr (`@fontsource`, SIL Open Font License); Material Icons load from Google Fonts (Apache-2.0).
-- `site/` includes upstream's built SDK (`site/sdk/`, with upstream's agent skill notes from `.agents/skills`); the running app does not load it.
+- `site/` includes upstream's built SDK scripts (`site/sdk/`, with upstream's agent skill notes from `.agents/skills`), without its npm manifest, typings and Svelte source (see What we changed); the running app does not load it.
+- Tofu's safety check reports one blocking finding on this site, `obfuscated-code` at `livecodes/result-utils.<hash>.js:2` ("A packed single-line file executes code it builds at runtime"). It is a false positive of that rule: the file is LiveCodes' own result-page helper (`src/livecodes/result/result-utils.ts`), minified by esbuild into three lines, and the code it runs is what the visitor types into the Console panel. `handleEval` in `src/livecodes/result/utils.ts` passes that text to `window.eval` inside the sandboxed result frame and posts the answer back, the way a browser's devtools console does. Nothing in it is decoded or hidden. The rule escalates any `eval` in a file packed into three lines or fewer to blocking; the minified file is left as upstream's build wrote it.
 
 ## Verification
+
+### `pin/2026-10-23.1`: the files Free hosting refuses left out
+
+Done on 2026-10-23 (UTC). Nothing was deployed, and the site was not rebuilt: the twelve files were removed from the committed `site/` (421 files before, 409 after), and `tofu/build.sh` now removes the same files after a build.
+
+- Tofu's own checks, before: `lane_check.mts --one tofu-gallery/livecodes pin/2026-10-23 site` (run from Tofu's `apps/mcp-server`; it imports the ref the way Tofu's GitHub import does, then runs Tofu's static-hosting predicates and its safety check) printed `files=421 published=402 -> not on the static lane | refused: type×11, configuration×1 | build: not_vite | SAFETY BLOCKS obfuscated-code@livecodes/result-utils.73374fa599c3208858fbbf81ff2b5879.js (7 findings)`. The type refusals were `netlify.toml`, `sdk/LiveCodes.svelte` and the nine `sdk/types/*.d.ts`; the configuration refusal was `sdk/package.json`.
+- Browser (Aside, own tab, 127.0.0.1 only), on a copy of `site/` made with the import's filter (`rsync -a --exclude node_modules --exclude dist --exclude build --exclude target --exclude .cache`, 409 files), served with `python3 -I -m http.server 8473 --bind 127.0.0.1`, and upstream's sandbox folder on 127.0.0.1:8085 as before. Neither server sends an `access-control-allow-origin` header, as Tofu's hosting does not. Typed `<h1 id="out">Waiting</h1>` into HTML and `document.getElementById("out").textContent = "Ran: " + [2, 3, 7].reduce((a, b) => a * b, 1);` plus `console.log("tofu-check", 6 * 7);` into JS, clicked Run: the result frame read "Ran: 42" and the Console panel "tofu-check 42". Typed `document.getElementById("out").textContent + " / " + (6 * 7)` into the Console's input and pressed Enter: it answered "Ran: 42 / 42" (the console evaluation the safety finding is about). No console errors or warnings in the host page or the app frame, and no request with an HTTP 4xx or 5xx; outside hosts were `cdn.jsdelivr.net`, `cdnjs.cloudflare.com`, `fonts.googleapis.com` and `fonts.gstatic.com`. `/netlify.toml` and `/sdk/package.json` answer 404 on the copy.
+
+### `pin/2026-10-23`: the first pin
 
 Done on 2026-10-23 with Node.js v22.22.3 and npm 10.9.8 (upstream's `.nvmrc` says 24.4.1; `package.json` asks for Node 22 or newer). Nothing was deployed.
 
