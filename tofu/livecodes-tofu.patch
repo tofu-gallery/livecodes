@@ -1,0 +1,146 @@
+diff --git a/src/livecodes/assets/site.webmanifest b/src/livecodes/assets/site.webmanifest
+index 497e037b..02cf463f 100644
+--- a/src/livecodes/assets/site.webmanifest
++++ b/src/livecodes/assets/site.webmanifest
+@@ -3,12 +3,12 @@
+   "short_name": "LiveCodes",
+   "icons": [
+     {
+-      "src": "https://livecodes.io/livecodes/assets/images/android-chrome-192x192.png",
++      "src": "images/android-chrome-192x192.png",
+       "sizes": "192x192",
+       "type": "image/png"
+     },
+     {
+-      "src": "https://livecodes.io/livecodes/assets/images/android-chrome-512x512.png",
++      "src": "images/android-chrome-512x512.png",
+       "sizes": "512x512",
+       "type": "image/png"
+     }
+diff --git a/src/livecodes/core.ts b/src/livecodes/core.ts
+index 9f9746bd..e6351438 100644
+--- a/src/livecodes/core.ts
++++ b/src/livecodes/core.ts
+@@ -1834,7 +1834,8 @@ const getTemplates = async (): Promise<Template[]> => {
+ const initializeAuth = async () => {
+   /** Lazy load authentication */
+   if (authService) return;
+-  authService = createAuthService(isEmbed);
++  // Tofu copy: GitHub login runs through upstream's Firebase project (livecodes.io only), so it is off.
++  authService = createAuthService(/* isEmbed = */ true);
+   const user = await authService.getUser();
+   if (user) {
+     displayLoggedIn(user);
+@@ -2726,8 +2727,10 @@ const handleCommandMenu = async () => {
+         showScreen,
+       },
+     });
+-    const authAction = authService?.isLoggedIn() ? logoutAction : loginAction;
+-    ninja.data = [...actions, authAction];
++    // Tofu copy: no login action, and no entries for the features this copy removes.
++    void loginAction;
++    void logoutAction;
++    ninja.data = withoutTofuRemovedActions(actions);
+     if (HomeBreadcrumb) {
+       HomeBreadcrumb.innerText = window.deps.translateString('commandMenu.home', 'Home');
+     }
+@@ -5077,6 +5080,34 @@ const extraHandlers = async () => {
+   handleKeyboardShortcutsScreen();
+   handleUnload();
+   showConsoleMessage();
++  removeTofuFeatures();
++};
++
++// Tofu copy: these features need a GitHub login (upstream's Firebase project) or
++// upstream's broadcast server, neither of which a copy can use, so their entry points go.
++const tofuRemovedActions = ['Export to GitHub Gist', 'Deploy', 'Broadcast', 'Sync', 'Sponsor'];
++
++const withoutTofuRemovedActions = (list: any[]): any[] =>
++  list
++    .filter((action) => !tofuRemovedActions.includes(action?.id))
++    .map((action) =>
++      Array.isArray(action?.children)
++        ? { ...action, children: withoutTofuRemovedActions(action.children) }
++        : action,
++    );
++
++const removeTofuFeatures = () => {
++  ['#login-link', '#logout-link', '#broadcast-status-btn'].forEach((selector) =>
++    document.querySelector(selector)?.remove(),
++  );
++  ['#export-githubGist', '#deploy-link', '#broadcast-link', '#sync-link'].forEach((selector) =>
++    document.querySelector(selector)?.closest('li')?.remove(),
++  );
++  // also closes ?screen=login|deploy|sync|broadcast
++  ['login', 'deploy', 'sync', 'broadcast'].forEach((name) => {
++    const index = screens.findIndex((s) => s.screen === name);
++    if (index !== -1) screens.splice(index, 1);
++  });
+ };
+ 
+ const configureEmbed = (eventsManager: EventsManager) => {
+diff --git a/src/livecodes/html/about.html b/src/livecodes/html/about.html
+index 0eac0549..c5bf2b1d 100644
+--- a/src/livecodes/html/about.html
++++ b/src/livecodes/html/about.html
+@@ -105,19 +105,7 @@
+       </ul>
+ 
+       <div class="livecodes-support">
+-        <div>
+-          <a
+-            href="{{DOCS_BASE_URL}}sponsor"
+-            target="_blank"
+-            rel="noopener"
+-            title="Sponsor LiveCodes"
+-            data-i18n="about.sponsor.title"
+-            data-i18n-prop="title"
+-          >
+-            <i class="icon-sponsor"></i>
+-            <br /><span data-i18n="about.sponsor.text">Sponsor</span></a
+-          >
+-        </div>
++        <!-- Tofu copy: the sponsor link is left out of this copy. -->
+         <div>
+           <a
+             href="https://blog.livecodes.io"
+diff --git a/src/livecodes/html/add-asset.html b/src/livecodes/html/add-asset.html
+index 06fd72e8..886aeecb 100644
+--- a/src/livecodes/html/add-asset.html
++++ b/src/livecodes/html/add-asset.html
+@@ -12,11 +12,7 @@
+           Data URL</a
+         >
+       </li>
+-      <li>
+-        <a href="#" data-target="add-asset-gh-pages" data-i18n="assets.add.githubPages.heading">
+-          GitHub Pages</a
+-        >
+-      </li>
++      <!-- Tofu copy: the GitHub Pages upload needs a GitHub login, which this copy does not have. -->
+     </ul>
+ 
+     <div id="add-asset-data-url" class="tab-content active">
+diff --git a/src/livecodes/html/welcome.html b/src/livecodes/html/welcome.html
+index 80fbd238..0e294d36 100644
+--- a/src/livecodes/html/welcome.html
++++ b/src/livecodes/html/welcome.html
+@@ -144,17 +144,7 @@
+       </ul>
+ 
+       <div class="livecodes-support">
+-        <div>
+-          <a
+-            href="{{DOCS_BASE_URL}}sponsor"
+-            target="_blank"
+-            rel="noopener"
+-            title="Sponsor LiveCodes"
+-          >
+-            <i class="icon-sponsor"></i>
+-            <br /><span data-i18n="generic.about.sponsor">Sponsor</span></a
+-          >
+-        </div>
++        <!-- Tofu copy: the sponsor link is left out of this copy. -->
+         <div>
+           <a href="https://blog.livecodes.io" target="_blank" rel="noopener" title="LiveCodes Blog">
+             <i class="icon-blog"></i>
