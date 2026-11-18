@@ -3,7 +3,7 @@ import { modulesService } from './services/modules';
 const { getUrl, getModuleUrl } = modulesService;
 
 export const vendorsBaseUrl = // 'http://127.0.0.1:8081/';
-  /* @__PURE__ */ getUrl('@live-codes/browser-compilers@0.22.10/dist/');
+  /* @__PURE__ */ getUrl('@live-codes/browser-compilers@0.22.12/dist/');
 
 export const acornUrl = /* @__PURE__ */ getUrl('acorn@8.12.1/dist/acorn.js');
 
@@ -151,6 +151,10 @@ export const duckdbWasmBaseUrl = /* @__PURE__ */ getUrl('@duckdb/duckdb-wasm@1.3
 export const duckdbWasmModuleUrl = /* @__PURE__ */ getModuleUrl('@duckdb/duckdb-wasm@1.32.0');
 
 export const ejsUrl = /* @__PURE__ */ getUrl('ejs@4.0.1/ejs.js');
+
+export const atomvmWasmBaseUrl = /* @__PURE__ */ getUrl(
+  '@live-codes/browser-elixir@0.1.0/runtime/wasm/',
+);
 
 export const elkjsBaseUrl = /* @__PURE__ */ getUrl('elkjs@0.8.2/lib/');
 
